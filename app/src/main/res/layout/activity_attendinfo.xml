@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bg_top" >
+
+        <Button
+            android:id="@+id/btn_classinfo_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/attendinfo"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_bottom"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="1197dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="317dp"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/ly_attend_teacher"
+                    android:layout_width="1137dp"
+                    android:layout_height="237dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/ly_attendinfo_1" >
+
+                    <ImageView
+                        android:id="@+id/img_atteninfo_photo"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="40dp"
+                        android:src="@drawable/user_icon" />
+
+                    <com.yy.doorplate.view.CustomTextView
+                        android:id="@+id/txt_atteninfo_jsxm"
+                        android:layout_width="222dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_toRightOf="@+id/img_atteninfo_photo"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp" >
+                    </com.yy.doorplate.view.CustomTextView>
+
+                    <com.yy.doorplate.view.CustomTextView
+                        android:id="@+id/txt_atteninfo_kcmc"
+                        android:layout_width="222dp"
+                        android:layout_height="55dp"
+                        android:layout_alignLeft="@+id/txt_atteninfo_jsxm"
+                        android:layout_below="@+id/txt_atteninfo_jsxm"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/txt_attendinfo"
+                        android:ellipsize="marquee"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" >
+                    </com.yy.doorplate.view.CustomTextView>
+
+                    <LinearLayout
+                        android:layout_width="579dp"
+                        android:layout_height="196dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="35dp"
+                        android:background="@drawable/ly_attendinfo_2"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txt_atteninfo_banji"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_atteninfo_jc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_atteninfo_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_atteninfo_addr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/white"
+                            android:textSize="35sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/ly_classinfo_title"
+                android:gravity="center_vertical"
+                android:paddingLeft="70dp"
+                android:text="@string/student_list"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/sv_attend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="60dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/ly_attend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="624dp"
+                android:layout_height="237dp"
+                android:background="@drawable/ly_attendinfo_3"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="30dp"
+                        android:text="@string/jryd"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/txt_atteninfo_jryd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:textColor="@color/white"
+                        android:textSize="90sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="30dp"
+                        android:text="@string/yqd"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/txt_atteninfo_yqd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:textColor="@color/white"
+                        android:textSize="90sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="624dp"
+                android:layout_height="591dp"
+                android:background="@drawable/ly_attendinfo_4"
+                android:padding="30dp" >
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

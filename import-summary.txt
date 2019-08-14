@@ -1,0 +1,72 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+* readme.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\armeabi-v7a\libanychatcore.so => app\src\main\jniLibs\armeabi-v7a\libanychatcore.so
+* libs\armeabi-v7a\libApkPatchJni.so => app\src\main\jniLibs\armeabi-v7a\libApkPatchJni.so
+* libs\armeabi-v7a\libaudio_preprocessing.so => app\src\main\jniLibs\armeabi-v7a\libaudio_preprocessing.so
+* libs\armeabi-v7a\libaudio_process.so => app\src\main\jniLibs\armeabi-v7a\libaudio_process.so
+* libs\armeabi-v7a\libdriverJni.so => app\src\main\jniLibs\armeabi-v7a\libdriverJni.so
+* libs\armeabi-v7a\libmediacore.so => app\src\main\jniLibs\armeabi-v7a\libmediacore.so
+* libs\armeabi-v7a\libmediahwcodec_rk30_4.1.so => app\src\main\jniLibs\armeabi-v7a\libmediahwcodec_rk30_4.1.so
+* libs\armeabi-v7a\libmediahwcodec_rk30_4.2.so => app\src\main\jniLibs\armeabi-v7a\libmediahwcodec_rk30_4.2.so
+* libs\armeabi-v7a\libmediashow.so => app\src\main\jniLibs\armeabi-v7a\libmediashow.so
+* libs\armeabi-v7a\libmediautil_v6.so => app\src\main\jniLibs\armeabi-v7a\libmediautil_v6.so
+* libs\armeabi-v7a\libmediautil_v7.so => app\src\main\jniLibs\armeabi-v7a\libmediautil_v7.so
+* libs\armeabi-v7a\libwebrtcdemo-jni.so => app\src\main\jniLibs\armeabi-v7a\libwebrtcdemo-jni.so
+* libs\audio_device_module_java.jar => app\libs\audio_device_module_java.jar
+* libs\BASE64.jar => app\libs\BASE64.jar
+* libs\bugly_crash_release.jar => app\libs\bugly_crash_release.jar
+* libs\commons-net-3.3.jar => app\libs\commons-net-3.3.jar
+* libs\ect.jar => app\libs\ect.jar
+* libs\fastjson-1.2.7.jar => app\libs\fastjson-1.2.7.jar
+* libs\jsoup-1.10.2.jar => app\libs\jsoup-1.10.2.jar
+* libs\mpandroidchartlibrary-2-1-5.jar => app\libs\mpandroidchartlibrary-2-1-5.jar
+* libs\universal-image-loader-1.9.5.jar => app\libs\universal-image-loader-1.9.5.jar
+* libs\video_capture_module_java.jar => app\libs\video_capture_module_java.jar
+* libs\video_render_module_java.jar => app\libs\video_render_module_java.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

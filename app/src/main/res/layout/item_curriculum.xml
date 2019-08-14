@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:minHeight="130dp" >
+
+    <View
+        android:layout_width="1420dp"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="410dp"
+        android:background="#B6B6B6" />
+
+    <TextView
+        android:id="@+id/txt_curriculum_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:textColor="#666"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt_curriculum_jc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txt_curriculum_time"
+        android:layout_alignParentBottom="true"
+        android:textColor="#999"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/img_curriculum"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@id/txt_curriculum_time"
+        android:src="@drawable/img_curriculum" />
+
+    <TextView
+        android:id="@+id/txt_curriculum_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/img_curriculum"
+        android:textColor="#666"
+        android:textSize="40sp" />
+
+    <!-- // change for 8 -->
+    <TextView
+        android:id="@+id/txt_curriculum_jsxm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="120dp"
+        android:singleLine="true"
+        android:textColor="#999"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt_curriculum_banji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="110dp"
+        android:layout_toLeftOf="@id/txt_curriculum_jsxm"
+        android:textColor="#666"
+        android:textSize="40sp" />
+
+</RelativeLayout>

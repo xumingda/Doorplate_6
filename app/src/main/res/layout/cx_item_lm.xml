@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_item_lm"
+    android:layout_width="460dp"
+    android:layout_height="108dp"
+    android:minHeight="108dp" >
+
+    <TextView
+        android:id="@+id/txt_item_lm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="42sp" />
+
+</RelativeLayout>

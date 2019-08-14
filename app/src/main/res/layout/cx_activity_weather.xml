@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_cx_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+               <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="天气预报"
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cx_ly_weather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_margin="20dp"
+        android:background="@drawable/cx_weather_sunny" >
+
+        <RelativeLayout
+            android:id="@+id/ly_day"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" >
+
+            <TextView
+                android:id="@+id/txt_today_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="100dp"
+                android:text="今天"
+                android:textColor="@color/white"
+                android:textSize="60sp" />
+
+            <ImageView
+                android:id="@+id/iv_weather_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/txt_today_title"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/txt_today_title"
+                android:background="@drawable/cx_weather_line" />
+            
+            <TextClock
+                android:id="@+id/tc_weather_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/txt_today_title"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/iv_weather_line1"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_weather"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/ly_day" >
+
+            <ImageView
+                android:id="@+id/iv_weather_logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/adddevice_click" 
+                android:visibility="gone"/>
+
+			<TextView android:id="@+id/txt_weather_cityname"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textColor="@color/white"
+			    android:layout_centerVertical="true"
+			    android:textSize="100sp"/>
+            <TextView
+                android:id="@+id/txt_weather_today_tem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_toRightOf="@id/txt_weather_cityname"
+                android:textColor="@color/white"
+                android:textSize="100sp" />
+
+            <TextView
+                android:id="@+id/txt_weather_fx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_weather_today_tem"
+                android:layout_below="@+id/txt_weather_today_tem"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/iv_weather_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/txt_weather_today_tem"
+                android:background="@drawable/cx_weather_line" />
+
+            <TextView
+                android:id="@+id/txt_weather_quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:layout_toRightOf="@id/iv_weather_line2"
+                android:textColor="@color/white"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/txt_weather_aqipm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_weather_quality"
+                android:layout_marginLeft="80dp"
+                android:layout_toRightOf="@id/iv_weather_line2"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/iv_weather_line3"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/txt_weather_quality"
+                android:background="@drawable/cx_weather_line" />
+
+            <TextView
+                android:id="@+id/txt_weather_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:layout_toRightOf="@id/iv_weather_line3"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_weather_gonggao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_weather_notice"
+                android:layout_marginLeft="80dp"
+                android:layout_toRightOf="@id/iv_weather_line3"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_yubao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ly_weather"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

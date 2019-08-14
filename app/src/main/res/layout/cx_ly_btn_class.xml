@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn_main_new_class"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cx_btn_main_class" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_main_new_class"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="班级风采"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</RelativeLayout>

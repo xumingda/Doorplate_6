@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1154dp"
+    android:layout_height="342dp" >
+
+    <LinearLayout
+        android:id="@+id/ly_main_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@drawable/ly_main_schedule"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/curriculum"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/teacher"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/banji"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btn_main_schedule_ly"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_go" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_main_schedule1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/ly_main_schedule"
+        android:background="@drawable/list_main_schedule" >
+
+        <ListView
+            android:id="@+id/list_main_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/bottom_color"
+            android:scrollbars="none" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/txt_schedule_noclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/noclass"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

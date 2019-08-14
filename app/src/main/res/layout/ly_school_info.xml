@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn_schoolnew_1"
+        android:layout_width="244dp"
+        android:layout_height="69dp"
+        android:background="@drawable/btn_schoolnew_1"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_schoolnew_2"
+        android:layout_width="244dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@id/btn_schoolnew_1"
+        android:background="@drawable/btn_schoolnew_2"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_schoolnew_3"
+        android:layout_width="244dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/btn_schoolnew_1"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@id/ly_schoolnew_banner"
+        android:background="@drawable/btn_schoolnew_3"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_schoolnew_4"
+        android:layout_width="244dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/btn_schoolnew_1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@id/btn_schoolnew_3"
+        android:background="@drawable/btn_schoolnew_4"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

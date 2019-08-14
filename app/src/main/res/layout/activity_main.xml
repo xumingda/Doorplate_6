@@ -1,0 +1,508 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:layout_width="594dp"
+        android:layout_height="134dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo11" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txt_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@id/textClock"
+        android:textColor="#f6ff6e"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@id/txt_weather"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_banner"
+        android:layout_width="654dp"
+        android:layout_height="255dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/ly_banner" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_main_new"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignLeft="@id/ly_banner"
+        android:layout_alignRight="@id/ly_banner"
+        android:layout_below="@id/ly_banner"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/ly_whitebg" >
+
+        <LinearLayout
+            android:id="@+id/ly_main_new1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/txt_main_new_title1"
+                android:layout_width="560dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/txt_main_new_nr1"
+                android:layout_width="560dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#777"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/txt_main_new_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="#999"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_main_new2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@id/ly_main_new1"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/txt_main_new_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/txt_main_new_nr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#777"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/txt_main_new_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="#999"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_main_new3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@id/ly_main_new2"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/txt_main_new_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/txt_main_new_nr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#777"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/txt_main_new_time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="#999"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_main_nonew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/nonew"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_main_btn"
+        android:layout_width="1154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ly_main_new"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_main_new"
+            android:layout_width="184dp"
+            android:layout_height="188dp"
+            android:background="@drawable/btn_mian_new" />
+
+        <Button
+            android:id="@+id/btn_main_class"
+            android:layout_width="184dp"
+            android:layout_height="188dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_mian_class" />
+
+        <Button
+            android:id="@+id/btn_main_schedule"
+            android:layout_width="184dp"
+            android:layout_height="188dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_mian_schedule" />
+
+        <Button
+            android:id="@+id/btn_main_control"
+            android:layout_width="184dp"
+            android:layout_height="188dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_mian_control" />
+
+        <Button
+            android:id="@+id/btn_main_talk"
+            android:layout_width="184dp"
+            android:layout_height="188dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_mian_talk" />
+
+        <Button
+            android:id="@+id/btn_main_setting"
+            android:layout_width="184dp"
+            android:layout_height="188dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_mian_setting" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_main_schedule1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_above="@id/ly_main_btn"
+        android:layout_alignLeft="@id/ly_main_btn"
+        android:layout_alignRight="@id/ly_main_btn"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/list_main_schedule" >
+
+        <ListView
+            android:id="@+id/list_main_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/bottom_color"
+            android:scrollbars="none" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/txt_schedule_noclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/noclass"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_main_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_above="@id/ly_main_schedule1"
+        android:layout_alignLeft="@id/ly_main_schedule1"
+        android:layout_alignRight="@id/ly_main_schedule1"
+        android:background="@drawable/ly_main_schedule"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/curriculum"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/teacher"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/banji"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btn_main_schedule_ly"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_go" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_main_class"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_above="@id/ly_main_schedule"
+        android:layout_alignLeft="@id/ly_main_schedule"
+        android:layout_alignRight="@id/ly_main_schedule"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ly_mian_class2" >
+
+        <com.yy.doorplate.view.CustomTextView
+            android:id="@+id/txt_main_class"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="45sp" >
+        </com.yy.doorplate.view.CustomTextView>
+
+        <com.yy.doorplate.view.CustomTextView
+            android:id="@+id/txt_main_banji"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_class"
+            android:layout_toRightOf="@id/txt_main_class"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="45sp" >
+        </com.yy.doorplate.view.CustomTextView>
+
+        <TextView
+            android:id="@+id/txt_main_time"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_banji"
+            android:layout_toRightOf="@id/txt_main_banji"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/txt_main_teacher"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_time"
+            android:layout_toRightOf="@id/txt_main_time"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/txt_main_solid_arrive"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_teacher"
+            android:layout_toRightOf="@id/txt_main_teacher"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/txt_main_arrive"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_solid_arrive"
+            android:layout_toRightOf="@id/txt_main_solid_arrive"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/txt_main_1"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="@string/curriculum"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_main_2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_1"
+            android:layout_toRightOf="@id/txt_main_1"
+            android:gravity="center"
+            android:text="@string/banji"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_main_3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_2"
+            android:layout_toRightOf="@id/txt_main_2"
+            android:gravity="center"
+            android:text="@string/time"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_main_4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_3"
+            android:layout_toRightOf="@id/txt_main_3"
+            android:gravity="center"
+            android:text="@string/teacher"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_main_5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_4"
+            android:layout_toRightOf="@id/txt_main_4"
+            android:gravity="center"
+            android:text="@string/solid_arrive"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_main_6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_main_5"
+            android:layout_toRightOf="@id/txt_main_5"
+            android:gravity="center"
+            android:text="@string/arrive"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_class_noclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/noclass"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_above="@id/ly_main_schedule"
+        android:layout_alignLeft="@id/ly_main_schedule"
+        android:layout_alignRight="@id/ly_main_schedule"
+        android:layout_marginBottom="211dp"
+        android:background="@drawable/ly_main_class1"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_main_class_ly"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp"
+            android:background="@drawable/btn_go" />
+
+        <com.yy.doorplate.view.CustomTextView
+            android:id="@+id/txt_classroom"
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="60sp" >
+        </com.yy.doorplate.view.CustomTextView>
+    </RelativeLayout>
+
+</RelativeLayout>

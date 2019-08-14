@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileOptions.encoding = "GBK"
+//    compileSdkVersion 19
+//    buildToolsVersion "28.0.3"
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    defaultConfig {
+        applicationId "com.yy.doorplate"
+        minSdkVersion 17
+        //targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileSdkVersion 19
+    buildToolsVersion '28.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    apply plugin: 'com.android.application'
+
+    android {
+        compileOptions.encoding = "GBK"
+//    compileSdkVersion 19
+//    buildToolsVersion "28.0.3"
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+        defaultConfig {
+            applicationId "com.yy.doorplate"
+            minSdkVersion 17
+            //targetSdkVersion 19
+        }
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            }
+        }
+        compileSdkVersion 19
+        buildToolsVersion '28.0.3'
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        sourceSets {
+            main {
+                //jni库的调用会到资源文件夹下libs里面找so文件
+                jniLibs.srcDirs = ['libs']
+            }
+        }
+        sourceSets {
+            main {
+                //jni库的调用会到资源文件夹下libs里面找so文件
+                jniLibs.srcDirs = ['libs']
+            }
+        }
+    }
+
+    dependencies {
+        implementation 'com.android.support:support-v4:19.1.0'
+        implementation files('libs/audio_device_module_java.jar')
+        implementation files('libs/BASE64.jar')
+        implementation files('libs/bugly_crash_release.jar')
+        implementation files('libs/commons-net-3.3.jar')
+        implementation files('libs/ect.jar')
+        implementation files('libs/fastjson-1.2.7.jar')
+        implementation files('libs/jsoup-1.10.2.jar')
+        implementation files('libs/mpandroidchartlibrary-2-1-5.jar')
+        implementation files('libs/universal-image-loader-1.9.5.jar')
+        implementation files('libs/video_capture_module_java.jar')
+        implementation files('libs/video_render_module_java.jar')
+        implementation files('libs/XHApi.jar')
+    }
+}

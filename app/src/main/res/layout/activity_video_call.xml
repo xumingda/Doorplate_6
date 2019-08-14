@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_videocall_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/videocall"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/sv_videocall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="135dp"
+        android:paddingRight="135dp"
+        android:paddingTop="120dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/ly_videocall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

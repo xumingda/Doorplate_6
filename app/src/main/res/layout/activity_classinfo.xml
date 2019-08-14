@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bg_top" >
+
+        <Button
+            android:id="@+id/btn_classinfo_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_classinfo_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_banjiinfo"
+            android:layout_width="234dp"
+            android:layout_height="84dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_banjiinfo"
+            android:text="@string/banjiinfo"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_classinfo"
+            android:layout_width="234dp"
+            android:layout_height="84dp"
+            android:layout_alignTop="@id/btn_banjiinfo"
+            android:layout_toLeftOf="@id/btn_banjiinfo"
+            android:background="@drawable/btn_classinfo_click"
+            android:text="@string/classinfo"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="934dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_bottom" >
+
+        <LinearLayout
+            android:id="@+id/ly_classinfo_1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="308dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/ly_gly" >
+
+                <com.yy.doorplate.view.CustomTextView
+                    android:id="@+id/txt_classinfo_gly"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="14dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:id="@+id/txt_classinfo_glylx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/txt_classinfo_gly"
+                    android:layout_toRightOf="@+id/txt_classinfo_gly"
+                    android:text="@string/gly"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/txt_classinfo_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txt_classinfo_gly"
+                    android:layout_below="@+id/txt_classinfo_gly"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="248dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/ly_jsnl" >
+
+                <TextView
+                    android:id="@+id/txt_classinfo_jsnl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="- -"
+                    android:textColor="@color/white"
+                    android:textSize="60sp" />
+
+                <TextView
+                    android:id="@+id/txt_classinfo_xszs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_classinfo_jsnl"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/jsnl"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="1212dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/ly_remark" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/remark"
+                    android:textColor="#888"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_class_remark"
+                    android:layout_width="1000dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="24dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textColor="#666"
+                    android:textSize="35sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_classinfo"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_below="@id/ly_classinfo_1"
+            android:background="@drawable/ly_classinfo_title"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:gravity="center_vertical"
+                android:text="@string/equ_name"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/equ_num"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="900dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/equ_xh"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/equ_state"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_banjiinfo"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_below="@id/ly_classinfo_1"
+            android:background="@drawable/ly_classinfo_title"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="120dp"
+                android:gravity="center_vertical"
+                android:text="@string/touxiang"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/zuoweihao"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/xuehao"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/sex"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/zhiwu"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_classinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ly_classinfo"
+            android:divider="@color/bottom_color"
+            android:scrollbars="none" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

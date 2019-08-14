@@ -1,0 +1,4 @@
+#Tue Jun 18 16:49:49 CST 2019
+base.0=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

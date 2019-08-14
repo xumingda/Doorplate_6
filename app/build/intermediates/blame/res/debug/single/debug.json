@@ -1,0 +1,2582 @@
+[
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_tz_title_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_tz_title_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_honor.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_honor.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_xxdc.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_xxdc.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_attend.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_attend.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_bg.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\bg.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_newclass.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_newclass.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_bjkq.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_bjkq.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_weather.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_weather.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_back.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_back.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_spinner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_spinner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_videocall_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_videocall_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_quset_commit.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_quset_commit.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_8.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_8.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_curriculum.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_curriculum.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_leave.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_leave.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_5.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_5.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_mian_schedule.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_mian_schedule.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_item_quest.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\item_quest.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_6_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_6_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_8.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_8.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_borrow.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_borrow.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_schoolnew_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_schoolnew_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_classinfo_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_classinfo_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_addscene.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_addscene.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_1.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_1.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_gly.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_gly.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_leave.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_leave.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_star.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_star.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_jingbao.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_jingbao.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongzhi.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\tongzhi.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_view_classnew_horizontal.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\view_classnew_horizontal.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_more.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\more.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_web_back.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_web_back.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_attend.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_attend.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_8_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_8_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_txt_main_nextschedule.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\txt_main_nextschedule.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_5_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_5_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_6.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_6.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_9_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_9_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_vote.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_vote.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_add.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_add.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_tongzhi.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\tongzhi.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_2_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_2_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_9_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_9_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_msg.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_msg.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_attend.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_attend.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_line_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_line_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_2_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_2_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_control.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_control.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_bjxc.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_bjxc.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_addlist_ok.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_addlist_ok.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_del.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_del.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_notice_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_notice_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_input_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_input_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_bjtz.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_bjtz.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_teacher.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_teacher.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_progress_bottom.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\progress_bottom.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_schoolnew_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_schoolnew_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_light_seekbar.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\light_seekbar.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_dialog_teacher.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_dialog_teacher.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_attendbj.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_attendbj.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_pj_btn_mian_read.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\pj_btn_mian_read.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_attendinfo_1.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_attendinfo_1.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_checkbox_netset.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\checkbox_netset.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_1_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_1_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_main_atttend_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_main_atttend_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_seekbar_background.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\seekbar_background.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_bjly.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_bjly.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_mian_talk.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_mian_talk.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dialog_cancel.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\dialog_cancel.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_8.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_8.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_float_back.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_float_back.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_item_bg.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\item_bg.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_6.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_6.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_curriculum_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_curriculum_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_setligth_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_setligth_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_curriculum_attend.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_curriculum_attend.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_background_main.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\background_main.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_photo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_photo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_spinner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_spinner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_diymenu.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_diymenu.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_list_main_schedule.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\list_main_schedule.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_user_icon.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\user_icon.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_book_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_book_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_top_class.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_top_class.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_schedule.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_schedule.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_book_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_book_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_school_notice.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_school_notice.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_activity_details.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_activity_details.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_play.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_play.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_curriculum_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_curriculum_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_progress_thumb_p.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\progress_thumb_p.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_xxhd.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_xxhd.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_4.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_4.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_9.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_9.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_mian_school.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_mian_school.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_lock.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_lock.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_lh_cx_btn_mian_more.9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\lh_cx_btn_mian_more.9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_pj_ly_main_schedule.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\pj_ly_main_schedule.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_main_schedule.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_main_schedule.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_curriculum.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_curriculum.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_adddevice_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\adddevice_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_7_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_7_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_8_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_8_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_notice.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_notice.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_school_more.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_school_more.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_exam.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_8_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_8_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_3.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_3.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_guangbo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_guangbo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dialog_ok.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\dialog_ok.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_notice.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_notice.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_school_banner.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_school_banner.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_txt_grxx_attend_day.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_txt_grxx_attend_day.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_7_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_7_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_curriculum.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_curriculum.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_3.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_3.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_add.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_add.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_7_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_7_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_activity.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_activity.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_whitebg.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_whitebg.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_4_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_4_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_notice.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_notice.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_main_teacher_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_main_teacher_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_4_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_4_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_1_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_1_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_control.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_control.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_videocall_4.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_videocall_4.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_more.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\more.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_white.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_white.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_net.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_net.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_grxx_nop.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_grxx_nop.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_loadbar.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\listview_loadbar.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_survey.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_survey.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_call_wait.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_call_wait.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_weather_line.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_weather_line.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_class_info.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_class_info.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_5_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_5_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_school.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_school.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_attend_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_attend_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_more.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_more.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_4.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_4.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_schoolnew.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_schoolnew.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_teacher.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_teacher.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_permission.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_permission.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_quest.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_quest.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_main_classmotto.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_main_classmotto.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_item_leave.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_item_leave.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_school.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_school.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_video.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_video.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_main_read.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_main_read.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_grxx_line.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_grxx_line.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_edt_search.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\edt_search.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_diymenu.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_diymenu.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_bjxc.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_bjxc.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_gengduo_big.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\gengduo_big.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_control.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_control.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_permission_card.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_permission_card.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_main_read_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_main_read_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_schoolnew_banner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_schoolnew_banner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_setting.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_setting.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_8_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_8_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notice_details.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_notice_details.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_star.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_star.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_full.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\full.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_exam_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_exam_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_app.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_app.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_wifi_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_wifi_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_leave.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_leave.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_main_class_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_main_class_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_full_attend.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_full_attend.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_classnew_info_bk.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_classnew_info_bk.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo11.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\logo11.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_cx.jpg.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\bg_cx.jpg"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_schoolnew.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_schoolnew.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_pj_btn_mian_class.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\pj_btn_mian_class.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_volume_no.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_volume_no.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_progress_second.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\progress_second.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_grxx_msg_right.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_grxx_msg_right.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_wifi_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_wifi_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_school_info.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_school_info.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_schedule_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_schedule_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_permission_type.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_permission_type.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_bjhd.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_bjhd.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_item_honor_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\item_honor_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_emergency_notice.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_emergency_notice.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_attend_notbad.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_attend_notbad.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_star.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_star.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_notice_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_notice_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_grxx_attend_dayam.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_grxx_attend_dayam.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_weather_sunny.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_weather_sunny.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_lm.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_lm.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_notice.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_notice.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_quset_class.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_quset_class.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_banner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_banner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_pro_pwd.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_pro_pwd.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_banjiinfo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_banjiinfo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_9_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_9_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_main_new_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_main_new_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_main_teacher.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_main_teacher.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_classnew_full.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_classnew_full.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_mian_school_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_mian_school_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_mian_class.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_mian_class.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_classnew_bjcy.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_classnew_bjcy.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_banner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_banner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_play_n.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_play_n.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_white_.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_white_.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_msguser.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_msguser.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_grxx_table.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_grxx_table.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_quset_next.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_quset_next.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_newschool.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_newschool.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_9_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_9_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_book.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_book.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_honor.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_honor.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_cx_top.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_cx_top.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_attend_close.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_attend_close.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_quset_start.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_quset_start.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_talk.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_talk.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_noconnect.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_noconnect.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_remark.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_remark.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_3_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_3_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_attendinfo_3.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_attendinfo_3.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_8_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_8_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sceneinfo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_sceneinfo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_videocall_other.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_videocall_other.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_permission_login.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_permission_login.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_classnew_english.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_classnew_english.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_grxx_msg_left.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_grxx_msg_left.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_go.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_go.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_photo_title2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_photo_title2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_bjly.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_bjly.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_vote.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_vote.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_quest_line.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_quest_line.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_txt_attendinfo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\txt_attendinfo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_3_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_3_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_grxx_attend_day.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_grxx_attend_day.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_read.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_read.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_grxx_attend_daypm.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_grxx_attend_daypm.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_schedule_next.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_schedule_next.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_attend_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_attend_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_book_right_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_book_right_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_6_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_6_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_txt_item_grxx_msg_left.9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_txt_item_grxx_msg_left.9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_bjkq.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_bjkq.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_netset.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_netset.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_main_class1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_main_class1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_mian_control.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_mian_control.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_backpicture.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\backpicture.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_honor.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_honor.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_notice.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_notice.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_classnew_info.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_classnew_info.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_seekbar_light.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\seekbar_light.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_star.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_star.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jingbao.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\jingbao.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_notice.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_notice.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_whitebg.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_whitebg.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_5_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_5_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_zrb.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_zrb.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_appcode.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_appcode.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_2_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_2_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_teacher.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_teacher.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_setligth_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_setligth_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_media_tool_bg1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\media_tool_bg1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_netset_right_dialog_background.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\netset_right_dialog_background.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_7.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_7.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_classinfo_title.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_classinfo_title.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_student_details.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_student_details.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_control.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_control.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_honor.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_honor.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_input_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_input_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_attendinfo_2.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_attendinfo_2.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_main_info.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_main_info.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_4_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_4_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_mian_class2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_mian_class2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_setting.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_setting.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_media_control.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\layout_media_control.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_attend_good.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_attend_good.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_bjtz.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_bjtz.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_photo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_photo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_book_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_book_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_add_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_add_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_grxx_attend_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_grxx_attend_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dialog_cancel_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\dialog_cancel_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_progress_thumb_n.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\progress_thumb_n.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_classnew.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_classnew.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_0.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_0.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_photo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_photo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_save.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_save.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting_class.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_setting_class.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_week.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_week.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_gengduo_big.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\gengduo_big.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_txt_schedule_next.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_txt_schedule_next.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_7.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_7.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_handup.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_handup.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_choice.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_choice.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_item_quest_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\item_quest_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_mian_new.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_mian_new.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_1_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_1_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_main_class.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_main_class.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_bjhd.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_bjhd.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_videocall_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_videocall_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_weather.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_weather.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_lh_cx_ly_main_atttend.9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\lh_cx_ly_main_atttend.9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_attend_4.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_attend_4.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_question.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_question.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_2_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_2_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_1_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_1_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_exam_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_exam_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_6.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_6.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_submit.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_submit.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_volume.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_volume.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img61.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img61.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_7_off.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_7_off.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_curriculum.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_curriculum.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_schoolnew_quest.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_schoolnew_quest.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_go_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_go_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_school_activity.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_school_activity.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_attend_teacher.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_attend_teacher.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_schoolnew_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_schoolnew_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_bg_cx.jpg.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\bg_cx.jpg"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_attend.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_attend.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_talk.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_talk.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_curriculm.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_curriculm.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_notice_list.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_notice_list.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_setting.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_setting.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_attend_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_attend_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_permission_onlycard.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_permission_onlycard.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_init.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_init.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_schoolnew_banner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_schoolnew_banner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_empty.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_empty.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bofang.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\bofang.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_back_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_back_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_moresetting_label.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_moresetting_label.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_mian_msg.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_mian_msg.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_bjdc.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_bjdc.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_attend_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_attend_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_pj_activity_main.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\pj_activity_main.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_grxx_attend.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_grxx_attend.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dialog_ok_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\dialog_ok_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_school_jsfc.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_school_jsfc.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_curriculum.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_curriculum.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_zhiri.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_zhiri.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_xxxc.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_xxxc.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_main_new.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_main_new.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\anim_enteralpha.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\anim\\enteralpha.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_5.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_5.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_pj_ly_main.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\pj_ly_main.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_schoolnew_4.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_schoolnew_4.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_2.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_2.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quest.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_quest.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_7.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_7.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_line_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_line_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_1_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_1_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_xxly.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_xxly.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_attendinfo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_attendinfo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_back.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_back.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_tz_title.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_tz_title.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_permission_cancel.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_permission_cancel.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_videocall_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_videocall_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_5_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_5_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_8_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_8_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_grxx.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_grxx.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_white.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_white.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_faceregister.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_faceregister.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_2_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_2_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_quest.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_quest.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_edt_permission.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\edt_permission.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_fragment_book.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_fragment_book.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_call.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_call.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_seekbar_light.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\seekbar_light.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_main_zj.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_main_zj.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_8.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_8.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_classequ_state.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_classequ_state.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_main_classmotto.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_main_classmotto.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_mian_cxxxt.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_mian_cxxxt.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_2_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_2_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_curriculum_today.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_curriculum_today.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_grxx.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_grxx.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_seekbar_thumb.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\seekbar_thumb.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_deldevice_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\deldevice_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_txt_main_class.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\txt_main_class.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_quest_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_quest_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_class.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_class.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_notice_line.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_notice_line.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_weather_and_time.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_weather_and_time.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_4_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_4_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_student.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_student.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_7_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_7_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_addscene_save.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_addscene_save.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_bg_bottom.jpg.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\bg_bottom.jpg"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_video.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_video.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_talk.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_talk.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_time.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_time.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_man.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_man.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_teacher.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_teacher.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_zhiri.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_zhiri.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_mian_setting.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_mian_setting.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_10.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_10.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_teacher.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_teacher.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_attendinfo_4.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_attendinfo_4.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_grxx.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_grxx.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_progress_first.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\progress_first.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_curriculum.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_curriculum.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_lh_cx_ly_schedule.9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\lh_cx_ly_schedule.9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_face.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_face.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_attendinfo_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_attendinfo_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_4.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_4.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_grxxvideo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_grxxvideo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_4_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_4_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_xxtz.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_xxtz.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_select_class.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\select_class.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_3_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_3_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_banjiinfo_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_banjiinfo_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_lh_cx_activity_main_new.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\lh_cx_activity_main_new.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_4_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_4_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_cxxk.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_cxxk.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_main_new.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_main_new.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_book.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_book.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_grxx_attend.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_grxx_attend.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_honor.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_honor.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quest.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_quest.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_more.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_more.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_7.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_7.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_app.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_app.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_logo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_logo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_bg_cx_zj.jpg.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\bg_cx_zj.jpg"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_class_honor.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_class_honor.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_schedule.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_schedule.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jinggao.jpg.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\jinggao.jpg"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_pj_ly_banner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\pj_ly_banner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_call_other.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_call_other.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_edt_setting_class.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\edt_setting_class.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notice_list.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_notice_list.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_quest.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_quest.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_classnew_btn.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_classnew_btn.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_4.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_4.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_pj_activity_notice_list.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\pj_activity_notice_list.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_bg_top.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\bg_top.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_xxxw.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_xxxw.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_more.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_more.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_banji.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\banji.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_banji.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\banji.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_1_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_1_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_moresetting_label.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_moresetting_label.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_mian_more.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_mian_more.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_go.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_go.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_grxx.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_grxx.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_main_schedule.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_main_schedule.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_photo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_photo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_exam_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_exam_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_schedule_now.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_schedule_now.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_addlist_cancel.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_addlist_cancel.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_week.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_week.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_grxx_attend_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_grxx_attend_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_light_seekbar.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\light_seekbar.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_guanggao.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_guanggao.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_schoolnew_honor.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_schoolnew_honor.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_zhiri.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_zhiri.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_top_school.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_top_school.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_main_notice.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_main_notice.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_btn_class.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_btn_class.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_quest_details.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_quest_details.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_left_bg.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_left_bg.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_cx_item_attend_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\new_cx_item_attend_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_red.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_red.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_classinfo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_classinfo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_bjtz.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_bjtz.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_wifi.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_wifi.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_sceneinfo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_sceneinfo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_studentall.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_studentall.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_attend_exclamation.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_attend_exclamation.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_main_attend.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_main_attend.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_honor.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_honor.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_school_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_school_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_news.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_news.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_xxxw.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_xxxw.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_zrb_reativelayout.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\zrb_reativelayout.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_weather.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_weather.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_6_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_6_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_main_atttend.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_main_atttend.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_classnew_left.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_classnew_left.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_honor.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_honor.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_photo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_photo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_schedule_next_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_schedule_next_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_permission_type_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_permission_type_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_5_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_5_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_book_left_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_book_left_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_bjtz.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_bjtz.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_scene_info.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_scene_info.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_3_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_3_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_6_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_6_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_5_on.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_5_on.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_ampm.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_ampm.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_weather.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_weather.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_schoolnew.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_schoolnew.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_call.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_call.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_grxx.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_grxx.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_schoolnew_xxxw.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_schoolnew_xxxw.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_control_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_control_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_reboot.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_reboot.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_attend_bad.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_attend_bad.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_teacher_details.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_teacher_details.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_castscreen.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_castscreen.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_full_schoolnew.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_full_schoolnew.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_attend_cxxk_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_attend_cxxk_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_mian_more_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_mian_more_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_jsfc.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_jsfc.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_grxx.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_grxx.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_txt_quest_question.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\txt_quest_question.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_bjcy.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_bjcy.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_activity_title2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_activity_title2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_activity_commit.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_activity_commit.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\anim_exitalpha.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\anim\\exitalpha.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_people.jpg.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_people.jpg"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_weather_day_bg.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_weather_day_bg.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_kaoqin.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\kaoqin.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_school_quest.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_school_quest.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_black.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_black.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_xxdc.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_xxdc.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_9_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_9_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_img_control_2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\img_control_2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_exam_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_exam_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_title_bjxw.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_title_bjxw.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_search.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_search.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_class.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_class.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_grxxhonor.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_grxxhonor.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_6_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_6_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_3_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_3_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_netset.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_netset.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_selected.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_selected.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_item_lm_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_item_lm_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_grxx_table_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_grxx_table_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_read.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_read.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_control.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_control.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_face.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_face.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_more.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_more.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_pj_ly_main_classnew.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\pj_ly_main_classnew.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_clock.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_clock.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_classequ.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\item_classequ.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_pause_n.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_pause_n.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_background_edit.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\background_edit.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_bjdc.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_bjdc.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_xxtz.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_xxtz.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_school_honor.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_school_honor.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_5.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_5.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cx_ly_curriculum_5.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\cx_ly_curriculum_5.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_small_video.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_small_video.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_guangbo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_guangbo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_jsnl.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_jsnl.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_notice_details.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_notice_details.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_11.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_11.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_school_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_school_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_setting_update.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_setting_update.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_back.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_back.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_honor_title2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_honor_title2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_webview.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_2.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_2.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_edt_addscene.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\edt_addscene.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_net_icon_noselected.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\net_icon_noselected.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_3_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_3_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting_more.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_setting_more.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_xxtz.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_xxtz.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_off.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_off.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_view_classnew_vertical.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\view_classnew_vertical.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_schedule_today.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_schedule_today.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_wifi_input.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\dialog_wifi_input.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_6_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_6_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_device_9_click.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\device_9_click.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ly_classnew_banner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\ly_classnew_banner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_teacher_2.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_teacher_2.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_netset_right_wifi.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_netset_right_wifi.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_classnew_banner.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_classnew_banner.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_pj_btn_mian_school.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\pj_btn_mian_school.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_honor_title3.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_honor_title3.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_device_7_on.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_device_7_on.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_classnew.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_classnew.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_item_app.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_item_app.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_weather.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_weather.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_addscene_4.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\addscene_4.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_yyjz_notice.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_yyjz_notice.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\btn_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_5.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_5.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_class_banner.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_class_banner.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_btn_xxhd.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_btn_xxhd.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_activity_main.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_activity_main.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_attend_courseware.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_attend_courseware.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_video_list.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_video_list.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_fragment_teacherall.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_fragment_teacherall.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_txt_item_grxx_msg_right.9.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_txt_item_grxx_msg_right.9.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_attend_6.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_attend_6.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_english.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_english.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_back.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_back.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_ly_quest_right.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_ly_quest_right.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_classinfo.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_classinfo.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_dialog_student.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_dialog_student.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scene_1.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\scene_1.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_school_photo.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_school_photo.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_woman.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_woman.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_book.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_book.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_control_zj.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_control_zj.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_cx_ly_classname.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\cx_ly_classname.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_alertdialog_hint.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\alertdialog_hint.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_cxxk.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_cxxk.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_kaoqin.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\kaoqin.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_item_honor.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\item_honor.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_netset_right_ethernet.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_netset_right_ethernet.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_quest_title2.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_quest_title2.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_scene_1.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\btn_scene_1.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_ly_main_info_noc.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\ly_main_info_noc.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_video_call.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\activity_video_call.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ly_teacher_1.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-hdpi\\ly_teacher_1.xml"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_btn_quset_cancel.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_btn_quset_cancel.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_float_back.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\float_back.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cx_img_app_xxxc.png.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\drawable-ldpi\\cx_img_app_xxxc.png"
+    },
+    {
+        "merged": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\res\\merged\\debug\\layout_lh_cx_activity_main.xml.flat",
+        "source": "E:\\APP-class201903\\trunk\\Doorplate_6\\app\\src\\main\\res\\layout\\lh_cx_activity_main.xml"
+    }
+]

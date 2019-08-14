@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_zhiri_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="值日表"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="30dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/zrb_reativelayout"
+            android:padding="3dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#63A7E7"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_zhiri_yue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/zrb_color_yf"
+                        android:gravity="center"
+                        android:text="四月"
+                        android:textColor="@color/white"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_zhiri_week1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/zrb_color_xq1"
+                        android:gravity="center"
+                        android:text="星期一"
+                        android:textColor="@color/zrb_color_xq1zt"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_zhiri_week2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/zrb_color_xq2"
+                        android:gravity="center"
+                        android:text="星期二"
+                        android:textColor="@color/zrb_color_xq2zt"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_zhiri_week3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/zrb_color_xq3"
+                        android:gravity="center"
+                        android:text="星期三"
+                        android:textColor="@color/zrb_color_xq3zt"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_zhiri_week4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/zrb_color_xq4"
+                        android:gravity="center"
+                        android:text="星期四"
+                        android:textColor="@color/zrb_color_xq4zt"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_zhiri_week5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/zrb_color_xq5"
+                        android:gravity="center"
+                        android:text="星期五"
+                        android:textColor="@color/zrb_color_xq5zt"
+                        android:textSize="36sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="第一周"
+                            android:textColor="@color/zrb_color_xqzt"
+                            android:textSize="36sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="第二周"
+                            android:textColor="@color/zrb_color_xqzt"
+                            android:textSize="36sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="第三周"
+                            android:textColor="@color/zrb_color_xqzt"
+                            android:textSize="36sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="第四周"
+                            android:textColor="@color/zrb_color_xqzt"
+                            android:textSize="36sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="第五周"
+                            android:textColor="@color/zrb_color_xqzt"
+                            android:textSize="36sp" />
+                    </LinearLayout>
+
+                    <GridView
+                        android:id="@+id/grid_zhiri"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:divider="@color/bottom_color"
+                        android:horizontalSpacing="0dp"
+                        android:listSelector="@color/bottom_color"
+                        android:numColumns="5"
+                        android:scrollbars="none"
+                        android:verticalSpacing="0dp" >
+                    </GridView>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_call_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_call_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_call_top" >
+
+        <RelativeLayout
+            android:layout_width="1830dp"
+            android:layout_height="840dp"
+            android:layout_centerInParent="true"
+            android:background="#000000" >
+
+            <TextView
+                android:id="@+id/txt_call_wait"
+                android:layout_width="1750dp"
+                android:layout_height="615dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="65sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_call_wait"
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txt_call_local"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="68sp" />
+
+                <TextView
+                    android:id="@+id/txt_call_remote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="68sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_call_local"
+        android:layout_width="864dp"
+        android:layout_height="655dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="213dp"
+        android:background="#000000"
+        android:visibility="invisible" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_call_remote"
+        android:layout_width="864dp"
+        android:layout_height="655dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="85dp"
+        android:layout_marginTop="213dp"
+        android:background="#000000"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="正在呼叫中，请耐心等待..."
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_call_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt_call_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/txt_call_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:id="@+id/ly_call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

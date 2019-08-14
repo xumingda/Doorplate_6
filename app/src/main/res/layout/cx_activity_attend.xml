@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_cx_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="班级信息"
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginTop="23dp"
+        android:background="#F0F0F0" />
+
+    <RelativeLayout
+        android:id="@+id/ly_attend_bg"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_height="822dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+
+                android:id="@+id/ly_attend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/tv1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="未签到"
+                    />
+                <com.yy.doorplate.view.MyGridView
+                    android:visibility="gone"
+                    android:layout_toRightOf="@id/tv1"
+                    android:id="@+id/gv_attend1"
+                    android:layout_width="1080dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:divider="@color/bottom_color"
+                    android:horizontalSpacing="20dp"
+                    android:listSelector="@color/bottom_color"
+                    android:numColumns="10"
+                    android:scrollbars="none"
+                    android:verticalSpacing="20dp" >
+                </com.yy.doorplate.view.MyGridView>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/tv2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="旷课"
+                    />
+                <com.yy.doorplate.view.MyGridView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend1"
+                    android:layout_toRightOf="@id/tv2"
+                    android:id="@+id/gv_attend2"
+                    android:layout_width="1080dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:divider="@color/bottom_color"
+                    android:horizontalSpacing="20dp"
+                    android:listSelector="@color/bottom_color"
+                    android:numColumns="10"
+                    android:scrollbars="none"
+                    android:verticalSpacing="20dp" >
+                </com.yy.doorplate.view.MyGridView>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/tv3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="迟到"
+                    />
+                <com.yy.doorplate.view.MyGridView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend2"
+                    android:layout_toRightOf="@id/tv3"
+                    android:id="@+id/gv_attend3"
+                    android:layout_width="1080dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:divider="@color/bottom_color"
+                    android:horizontalSpacing="20dp"
+                    android:listSelector="@color/bottom_color"
+                    android:numColumns="10"
+                    android:scrollbars="none"
+                    android:verticalSpacing="20dp" >
+                </com.yy.doorplate.view.MyGridView>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend3"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/tv4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="早退"
+                    />
+                <com.yy.doorplate.view.MyGridView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend3"
+                    android:layout_toRightOf="@id/tv4"
+                    android:id="@+id/gv_attend4"
+                    android:layout_width="1080dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:divider="@color/bottom_color"
+                    android:horizontalSpacing="20dp"
+                    android:listSelector="@color/bottom_color"
+                    android:numColumns="10"
+                    android:scrollbars="none"
+                    android:verticalSpacing="20dp" >
+                </com.yy.doorplate.view.MyGridView>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/tv5"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="请假"
+                    />
+                <com.yy.doorplate.view.MyGridView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend4"
+                    android:layout_toRightOf="@id/tv5"
+                    android:id="@+id/gv_attend5"
+                    android:layout_width="1080dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:divider="@color/bottom_color"
+                    android:horizontalSpacing="20dp"
+                    android:listSelector="@color/bottom_color"
+                    android:numColumns="10"
+                    android:scrollbars="none"
+                    android:verticalSpacing="20dp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend5"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/tv6"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="出勤"
+                    />
+                <com.yy.doorplate.view.MyGridView
+                    android:visibility="gone"
+                    android:layout_below="@id/gv_attend5"
+                    android:layout_toRightOf="@id/tv6"
+                    android:id="@+id/gv_attend6"
+                    android:layout_width="1080dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:divider="@color/bottom_color"
+                    android:horizontalSpacing="20dp"
+                    android:listSelector="@color/bottom_color"
+                    android:numColumns="10"
+                    android:scrollbars="none"
+                    android:verticalSpacing="20dp" >
+                </com.yy.doorplate.view.MyGridView>
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/view"
+                    android:layout_width="1200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"/>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/view" >
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="600dp"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_toRightOf="@id/view" >
+
+                    <TextView
+
+                        android:id="@+id/txt_attend_js"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/txt_attend_yd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/txt_attend_js"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="30dp"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+                <WebView
+                    android:id="@+id/wv_attend"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></WebView>
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ly_courseware"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp" >
+
+                <ImageView
+                    android:layout_width="264dp"
+                    android:layout_height="144dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/cx_img_attend_courseware" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="140dp"
+                    android:fadingEdge="none"
+                    android:scrollbars="none" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/txt_attend_courseware1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="7dp"
+                            android:text="教学任务 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_courseware2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_courseware1"
+                            android:lineSpacingExtra="7dp"
+                            android:textColor="@color/black"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_courseware3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_courseware2"
+                            android:layout_marginTop="25dp"
+                            android:lineSpacingExtra="7dp"
+                            android:text="课后作业 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_courseware4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_courseware3"
+                            android:lineSpacingExtra="7dp"
+                            android:textColor="@color/black"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_courseware5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_courseware4"
+                            android:layout_marginTop="25dp"
+                            android:lineSpacingExtra="7dp"
+                            android:text="课件 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+
+                        <LinearLayout
+                            android:id="@+id/ly_attend_courseware"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_courseware5"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </RelativeLayout>
+                </ScrollView>
+            </RelativeLayout>
+            <View
+                android:visibility="gone"
+                android:layout_width="2dp"
+                android:layout_height="684dp"
+
+                android:background="@drawable/cx_quest_line" />
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp" >
+
+                <ImageView
+
+                    android:layout_width="264dp"
+                    android:layout_height="144dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/cx_img_attend_teacher" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/img_attend_teacher"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="120dp"
+                    android:src="@drawable/user_icon" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_toLeftOf="@id/img_attend_teacher"
+                    android:fadingEdge="none"
+                    android:scrollbars="none" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="WebViewLayout">
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="姓名 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/txt_attend_teacher1"
+                            android:layout_toRightOf="@id/txt_attend_teacher1"
+                            android:textColor="@color/black"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_teacher1"
+                            android:layout_marginTop="25dp"
+                            android:text="职称 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/txt_attend_teacher3"
+                            android:layout_toRightOf="@id/txt_attend_teacher3"
+                            android:textColor="@color/black"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_teacher3"
+                            android:layout_marginTop="25dp"
+                            android:lineSpacingExtra="7dp"
+                            android:text="个人经历 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+
+                        <WebView
+                            android:id="@+id/webView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_teacher5" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/webView"
+                            android:layout_marginTop="25dp"
+                            android:text="本节课考勤状态 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/txt_attend_teacher7"
+                            android:layout_toRightOf="@id/txt_attend_teacher7"
+                            android:textColor="@color/black"
+                            android:textSize="35sp" />
+
+                        <TextView
+                            android:id="@+id/txt_attend_teacher9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_attend_teacher7"
+                            android:layout_marginTop="25dp"
+                            android:text="教师寄语 : "
+                            android:textColor="#FF6E0E"
+                            android:textSize="35sp" />
+                    </RelativeLayout>
+                </ScrollView>
+            </RelativeLayout>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="684dp"
+                android:background="@drawable/cx_quest_line" />
+            <GridView
+                android:id="@+id/gv_student"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:divider="@color/bottom_color"
+                android:horizontalSpacing="20dp"
+                android:listSelector="@color/bottom_color"
+                android:numColumns="13"
+                android:scrollbars="none"
+                android:verticalSpacing="20dp" >
+            </GridView>
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/sv_classfeedback"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="54dp"
+            android:layout_marginRight="54dp"
+            android:layout_height="822dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/ly_classfeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_attend_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignLeft="@id/ly_attend_bg"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_attend"
+            android:layout_width="186dp"
+            android:layout_height="56dp"
+            android:background="@drawable/cx_btn_attend"
+            android:gravity="center"
+            android:text="本节课考勤"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_courseware"
+            android:layout_width="186dp"
+            android:layout_height="56dp"
+            android:background="@drawable/cx_btn_attend"
+            android:gravity="center"
+            android:text="教师/学生"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_classfeedback"
+            android:layout_width="186dp"
+            android:layout_height="56dp"
+            android:background="@drawable/cx_btn_attend"
+            android:gravity="center"
+            android:text="课后相关"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+
+    <!--&lt;!&ndash;班级考勤&ndash;&gt;-->
+    <!--<RelativeLayout-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginLeft="54dp"-->
+        <!--android:layout_marginRight="54dp"-->
+        <!--android:layout_below="@id/ly_attend_bg"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<GridView-->
+            <!--android:id="@+id/gv_attend_class"-->
+            <!--android:layout_width="1080dp"-->
+            <!--android:layout_height="750dp"-->
+            <!--android:divider="@color/bottom_color"-->
+            <!--android:horizontalSpacing="20dp"-->
+            <!--android:listSelector="@color/bottom_color"-->
+            <!--android:numColumns="10"-->
+            <!--android:scrollbars="none"-->
+            <!--android:verticalSpacing="20dp" >-->
+        <!--</GridView>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginLeft="54dp"-->
+            <!--android:layout_marginRight="30dp"-->
+            <!--android:layout_marginTop="54dp"-->
+            <!--android:layout_toRightOf="@id/gv_attend_class" >-->
+
+            <!--<com.github.mikephil.charting.charts.PieChart-->
+                <!--android:id="@+id/chart_class"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="600dp"-->
+                <!--android:layout_centerInParent="true" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginBottom="80dp"-->
+            <!--android:layout_toRightOf="@id/gv_attend_class" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/txt_attend_class_js"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="30sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/txt_attend_class_yd"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_above="@id/txt_attend_class_js"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginBottom="30dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="30sp" />-->
+        <!--</RelativeLayout>-->
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

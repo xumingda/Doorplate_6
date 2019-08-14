@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_cx_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <TextView
+            android:id="@+id/txt_vote_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_vote_left"
+        android:layout_width="612dp"
+        android:layout_height="817dp"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/cx_ly_quest_left"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_vote_left"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <LinearLayout
+            android:id="@+id/ly_vote_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/img_vote_left"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_vote_right"
+        android:layout_width="1172dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/cx_ly_quest_right"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_vote_right"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <ScrollView
+            android:id="@+id/sv_vote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/img_vote_right"
+            android:layout_marginBottom="68dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:scrollbars="none" >
+
+            <RelativeLayout
+                android:id="@+id/ly_vote_sv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <WebView
+                    android:id="@+id/web_vote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bottom_color" />
+
+                <LinearLayout
+                    android:id="@+id/ly_vote_option"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="invisible" >
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_vote_commit"
+            android:layout_width="122dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/cx_btn_quset_commit"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_vote_register"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@id/img_vote_right"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/cx_btn_activity_commit"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_vote_details"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_above="@id/btn_vote_register"
+            android:layout_alignLeft="@id/btn_vote_register"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/cx_btn_activity_details"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

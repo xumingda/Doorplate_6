@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="560dp"
+    android:layout_height="366dp"
+    android:background="@drawable/ly_schoolnew_honor" >
+
+    <RelativeLayout
+        android:id="@+id/ly_classnew_honor_"
+        android:layout_width="355dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_classnew_honor"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txt_classnew_honor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="#000"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/txt_classnew_honor2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/txt_classnew_honor1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/txt_classnew_honor1"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/txt_classnew_honor1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:textColor="#777"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_classnew_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_left"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_classnew_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_right"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txt_classnew_nohonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="暂无荣誉"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</RelativeLayout>

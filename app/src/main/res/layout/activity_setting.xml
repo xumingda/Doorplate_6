@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_setting_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/setting"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_setting_net"
+            android:layout_width="338dp"
+            android:layout_height="604dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="120dp" />
+
+        <Button
+            android:id="@+id/btn_setting_class"
+            android:layout_width="338dp"
+            android:layout_height="604dp"
+            android:layout_alignTop="@id/btn_setting_net"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/btn_setting_net" />
+
+        <Button
+            android:id="@+id/btn_setting_update"
+            android:layout_width="338dp"
+            android:layout_height="604dp"
+            android:layout_alignTop="@id/btn_setting_class"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/btn_setting_class" />
+
+        <Button
+            android:id="@+id/btn_setting_more"
+            android:layout_width="338dp"
+            android:layout_height="604dp"
+            android:layout_alignTop="@id/btn_setting_update"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/btn_setting_update" />
+
+        <Button
+            android:id="@+id/btn_setting_reboot"
+            android:layout_width="338dp"
+            android:layout_height="604dp"
+            android:layout_alignTop="@id/btn_setting_more"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/btn_setting_more" />
+    </RelativeLayout>
+
+</LinearLayout>

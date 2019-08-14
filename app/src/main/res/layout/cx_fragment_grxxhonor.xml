@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_honor1"
+        android:layout_width="315dp"
+        android:layout_height="640dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_honor1"
+            android:layout_width="296dp"
+            android:layout_height="435dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_honor1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_honor2"
+        android:layout_width="315dp"
+        android:layout_height="640dp"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/ly_fragment_honor1"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_honor2"
+            android:layout_width="296dp"
+            android:layout_height="435dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_honor2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_honor3"
+        android:layout_width="315dp"
+        android:layout_height="640dp"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/ly_fragment_honor2"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_honor3"
+            android:layout_width="296dp"
+            android:layout_height="435dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_honor3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor33"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_honor4"
+        android:layout_width="315dp"
+        android:layout_height="640dp"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/ly_fragment_honor3"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_honor4"
+            android:layout_width="296dp"
+            android:layout_height="435dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_honor4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_honor444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_honor44"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

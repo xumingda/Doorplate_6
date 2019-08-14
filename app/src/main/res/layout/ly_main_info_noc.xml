@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="1016dp"
+        android:layout_height="750dp"
+        android:layout_above="@id/ly_main_btn"
+        android:background="@drawable/pj_ly_main"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ly_main_class"
+            android:layout_width="488dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="78dp"
+            android:background="@drawable/txt_main_class"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_main_class"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="54sp" />
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_main_bj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="272dp" >
+
+            <TextView
+                android:id="@+id/txt_main_nonschedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无新闻"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+            
+            <TextView
+                android:id="@+id/txt_main_xxxw"
+                android:layout_width="960dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="90dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="4"
+                android:paddingLeft="45dp"
+                android:paddingRight="45dp"
+                android:textColor="#668"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_main_classnew"
+            android:layout_width="match_parent"
+            android:layout_height="253dp" >
+
+            <TextView
+                android:id="@+id/txt_main_noclassnew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无通知"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_main_classnew"
+                android:layout_width="960dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="3"
+                android:paddingLeft="45dp"
+                android:paddingRight="45dp"
+                android:textColor="#668"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/ly_banner"
+        android:background="@drawable/img61"
+        android:gravity="center"
+        android:text="学校新闻"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="445dp"
+        android:layout_toRightOf="@id/ly_banner"
+        android:background="@drawable/img61"
+        android:gravity="center"
+        android:text="班级通知"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+</RelativeLayout>

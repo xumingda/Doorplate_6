@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bg_top" >
+
+        <Button
+            android:id="@+id/btn_noticelist_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_notice_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/ly_notice_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_notice"
+                android:layout_width="234dp"
+                android:layout_height="84dp"
+                android:background="@drawable/btn_classinfo_click"
+                android:text="学校通知"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn_notice_bj"
+                android:layout_width="234dp"
+                android:layout_height="82dp"
+                android:background="@color/white"
+                android:text="班级通知"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn_guanggao"
+                android:layout_width="234dp"
+                android:layout_height="84dp"
+                android:background="@drawable/btn_banjiinfo"
+                android:text="宣传公告"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.yy.doorplate.view.MyPullUpListView
+        android:id="@+id/list_notice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_bottom"
+        android:divider="@color/bottom_color"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:scrollbars="none" >
+    </com.yy.doorplate.view.MyPullUpListView>
+
+</LinearLayout>

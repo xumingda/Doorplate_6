@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="505dp"
+    android:layout_height="300dp"
+    android:background="@drawable/ly_schoolnew_quest"
+    android:gravity="center_horizontal" >
+
+    <com.yy.doorplate.view.CustomTextView
+        android:id="@+id/txt_schoolnew_quest_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txt_schoolnew_quest_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_schoolnew_quest_title"
+        android:layout_marginTop="30dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_schoolnew_quest_start"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_classequ_state"
+        android:gravity="center"
+        android:text="开始"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txt_schoolnew_noquest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="暂无问卷调查"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</RelativeLayout>

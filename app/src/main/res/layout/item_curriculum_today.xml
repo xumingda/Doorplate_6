@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="80dp"
+    android:orientation="horizontal" >
+
+    <com.yy.doorplate.view.CustomTextView
+        android:id="@+id/txt_curriculum_today_class"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="#666"
+        android:textSize="40sp" >
+    </com.yy.doorplate.view.CustomTextView>
+
+    <TextView
+        android:id="@+id/txt_curriculum_today_teacher"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#666"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt_curriculum_today_time"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#666"
+        android:textSize="40sp" />
+
+    <com.yy.doorplate.view.CustomTextView
+        android:id="@+id/txt_curriculum_today_banji"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:paddingLeft="60dp"
+        android:singleLine="true"
+        android:textColor="#666"
+        android:textSize="40sp" >
+    </com.yy.doorplate.view.CustomTextView>
+
+</LinearLayout>

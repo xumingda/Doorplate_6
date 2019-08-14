@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_schoolnew"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ly_schoolnew_top"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bg_top" >
+
+        <Button
+            android:id="@+id/btn_schoolnew_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="校园文化"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_schoolnew_top"
+        android:background="@drawable/bg_bottom" >
+
+        <RelativeLayout
+            android:id="@+id/ly_schoolnew_banner"
+            android:layout_width="1210dp"
+            android:layout_height="477dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="54dp"
+            android:background="@drawable/ly_white" >
+
+            <ImageSwitcher
+                android:id="@+id/img_schoolnew_banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ImageSwitcher>
+
+            <SurfaceView
+                android:id="@+id/sv_schoolnew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_schoolnew_new"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignLeft="@id/ly_schoolnew_banner"
+            android:layout_alignRight="@id/ly_schoolnew_banner"
+            android:layout_below="@id/ly_schoolnew_banner"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ly_white"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/ly_schoolnew_new_"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="48dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="50dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/img_class_new"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
+                    android:visibility="invisible" />
+
+                <com.yy.doorplate.view.CustomTextView
+                    android:id="@+id/txt_schoolnew_new_title"
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/txt_schoolnew_new_rl"
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/txt_schoolnew_new_title"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:textColor="#777"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/txt_schoolnew_new_time"
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/txt_schoolnew_new_rl"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#999"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_schoolnew_new"
+                android:layout_width="600dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="48dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                android:divider="@color/bottom_color"
+                android:listSelector="@color/bottom_color"
+                android:scrollbars="none" >
+            </ListView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_schoolnew_honor"
+            android:layout_width="515dp"
+            android:layout_height="300dp"
+            android:layout_alignTop="@id/ly_schoolnew_banner"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@id/ly_schoolnew_banner"
+            android:background="@drawable/ly_schoolnew_honor" >
+
+            <RelativeLayout
+                android:id="@+id/ly_schoolnew_honor_"
+                android:layout_width="355dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="30dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/img_schoolnew_honor"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/txt_schoolnew_honor1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#000"
+                    android:textSize="45sp" />
+
+                <TextView
+                    android:id="@+id/txt_schoolnew_honor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/txt_schoolnew_honor1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/txt_schoolnew_honor1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/txt_schoolnew_honor1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:textColor="#777"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_schoolnew_left"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/btn_left"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_schoolnew_right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/btn_right"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txt_schoolnew_nohonor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无荣誉"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_schoolnew_1"
+            android:layout_width="244dp"
+            android:layout_height="69dp"
+            android:layout_below="@id/ly_schoolnew_honor"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="23dp"
+            android:layout_toRightOf="@id/ly_schoolnew_banner"
+            android:background="@drawable/btn_schoolnew_1"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_2"
+            android:layout_width="244dp"
+            android:layout_height="69dp"
+            android:layout_below="@id/ly_schoolnew_honor"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="23dp"
+            android:layout_toRightOf="@id/btn_schoolnew_1"
+            android:background="@drawable/btn_schoolnew_2"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_3"
+            android:layout_width="244dp"
+            android:layout_height="69dp"
+            android:layout_below="@id/btn_schoolnew_1"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/ly_schoolnew_banner"
+            android:background="@drawable/btn_schoolnew_3"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_4"
+            android:layout_width="244dp"
+            android:layout_height="69dp"
+            android:layout_below="@id/btn_schoolnew_1"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/btn_schoolnew_3"
+            android:background="@drawable/btn_schoolnew_4"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/ly_schoolnew_new"
+            android:layout_alignLeft="@id/btn_schoolnew_3"
+            android:layout_alignRight="@id/btn_schoolnew_4"
+            android:layout_alignTop="@id/ly_schoolnew_new"
+            android:background="@drawable/ly_schoolnew_quest"
+            android:gravity="center_horizontal" >
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_schoolnew_quest_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:paddingLeft="80dp"
+                android:paddingRight="80dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txt_schoolnew_quest_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_schoolnew_quest_title"
+                android:layout_marginTop="30dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_schoolnew_quest_start"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn_classequ_state"
+                android:gravity="center"
+                android:text="开始"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txt_schoolnew_noquest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无问卷调查"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

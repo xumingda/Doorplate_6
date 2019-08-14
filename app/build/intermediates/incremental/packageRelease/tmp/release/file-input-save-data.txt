@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Mon May 20 18:21:10 CST 2019
+2.base=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\0
+5.set=NATIVE_RESOURCE
+0.path=classes.dex
+2.baseType=DIRECTORY
+3.base=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+2.set=NATIVE_RESOURCE
+1.path=lib/armeabi-v7a/libserial_port.so
+4.base=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+count=7
+5.baseType=DIRECTORY
+2.path=lib/armeabi/libserial_port.so
+5.base=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\0
+4.set=ASSET
+3.path=onhook.mp3
+6.base=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=ring1.wav
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lib/x86/libserial_port.so
+0.base=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=di.mp3
+1.base=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\0
+4.baseType=DIRECTORY
+0.set=DEX

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_noticelist_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <TextView
+            android:text="报警"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <com.yy.doorplate.view.CustomTextView
+
+            android:id="@+id/txt_school_name"
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:visibility="invisible" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_centerHorizontal="true"
+            android:textSize="50sp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:text="身体不舒服"
+            />
+        <Button
+            android:layout_toLeftOf="@+id/btn"
+            android:textSize="50sp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:text="校园欺凌"
+            android:layout_marginRight="40dp"
+            />
+        <Button
+            android:layout_toRightOf="@+id/btn"
+            android:textSize="50sp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:text="其他"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

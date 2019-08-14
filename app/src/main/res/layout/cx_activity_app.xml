@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_cx_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+<!--         <ImageView
+            android:layout_width="302dp"
+            android:layout_height="66dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cx_img_title_app" /> -->
+		<TextView
+		    android:text="全部应用"
+		    android:layout_width="302dp"
+		    android:layout_height="66dp"
+		    android:textColor="@color/white"
+		    android:textSize="55sp"
+		    android:layout_centerInParent="true"/>
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="48dp"
+        android:divider="@color/bottom_color"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@color/bottom_color"
+        android:numColumns="8"
+        android:scrollbars="none"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+
+</RelativeLayout>

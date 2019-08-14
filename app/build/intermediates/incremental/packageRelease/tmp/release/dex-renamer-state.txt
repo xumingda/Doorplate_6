@@ -1,0 +1,4 @@
+#Mon May 20 18:21:10 CST 2019
+base.0=E\:\\APP-class201903\\trunk\\Doorplate_6\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

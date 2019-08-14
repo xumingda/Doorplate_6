@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_classnew"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_cx_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="个人信息"
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_grxx_nop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="234dp" >
+
+        <ImageView
+            android:id="@+id/img_grxx_nop"
+            android:layout_width="506dp"
+            android:layout_height="366dp"
+            android:src="@drawable/cx_ly_grxx_nop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grxx_nop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="查看信息需刷卡"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_grxx"
+        android:layout_width="1758dp"
+        android:layout_height="866dp"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cx_ly_grxx"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:id="@+id/ly_grxx_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/img_student_touxiang"
+                android:layout_width="321dp"
+                android:layout_height="310dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="82dp"
+                android:src="@drawable/user_icon" />
+
+            <TextView
+                android:id="@+id/txt_student_1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_student_touxiang"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="70dp"
+                android:lineSpacingExtra="50dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_student_2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_student_touxiang"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="70dp"
+                android:layout_toRightOf="@id/txt_student_1"
+                android:lineSpacingExtra="50dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_student_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="950dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="82dp"
+                android:lineSpacingExtra="50dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_student_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_student_3"
+                android:layout_marginLeft="950dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="50dp"
+                android:lineSpacingExtra="20dp"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_grxx_honor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:visibility="invisible" >
+
+            <Button
+                android:id="@+id/btn_honor_left"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cx_btn_classnew_left" />
+
+            <Button
+                android:id="@+id/btn_honor_right"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cx_btn_classnew_right" />
+
+            <com.yy.doorplate.view.CustomViewpager
+                android:id="@+id/vp_honor"
+                android:layout_width="match_parent"
+                android:layout_height="640dp"
+                android:overScrollMode="never"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/btn_honor_right"
+                android:layout_toRightOf="@id/btn_honor_left" >
+            </com.yy.doorplate.view.CustomViewpager>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_grxx_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:visibility="invisible" >
+
+            <Button
+                android:id="@+id/btn_video_left"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cx_btn_classnew_left" />
+
+            <Button
+                android:id="@+id/btn_video_right"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cx_btn_classnew_right" />
+
+            <com.yy.doorplate.view.CustomViewpager
+                android:id="@+id/vp_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/btn_video_right"
+                android:layout_toRightOf="@id/btn_video_left" >
+            </com.yy.doorplate.view.CustomViewpager>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_grxx_curriculum"
+            android:layout_width="1588dp"
+            android:layout_height="728dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/cx_ly_curriculum"
+            android:visibility="invisible" >
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:background="#8f7d62" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/cx_img_clock" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_curriculum_week"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="112dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_curriculum_ampm"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ly_curriculum_week"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gv_curriculum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ly_curriculum_week"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="112dp"
+                android:divider="@color/bottom_color"
+                android:horizontalSpacing="0dp"
+                android:listSelector="@color/bottom_color"
+                android:scrollbars="none"
+                android:verticalSpacing="0dp" >
+            </GridView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_grxx_attend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" >
+
+            <RelativeLayout
+                android:id="@+id/ly_grxx_attend_table"
+                android:layout_width="820dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="70dp"
+                android:background="#fbae28" >
+
+                <TextView
+                    android:id="@+id/txt_grxx_attend_table"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="35sp" />
+
+                <Button
+                    android:id="@+id/btn_grxx_attend_left"
+                    android:layout_width="19dp"
+                    android:layout_height="33dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_toLeftOf="@id/txt_grxx_attend_table"
+                    android:background="@drawable/cx_btn_grxx_attend_left" />
+
+                <Button
+                    android:id="@+id/btn_grxx_attend_right"
+                    android:layout_width="19dp"
+                    android:layout_height="33dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@id/txt_grxx_attend_table"
+                    android:background="@drawable/cx_btn_grxx_attend_right" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_grxx_attend_week"
+                android:layout_width="820dp"
+                android:layout_height="107dp"
+                android:layout_alignLeft="@id/ly_grxx_attend_table"
+                android:layout_below="@id/ly_grxx_attend_table"
+                android:background="#e5e9ed"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="SUN\n周日"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="MON\n周一"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="TUE\n周二"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="WED\n周三"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="THU\n周四"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="FRI\n周五"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="SAT\n周六"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="820dp"
+                android:layout_height="506dp"
+                android:layout_alignLeft="@id/ly_grxx_attend_week"
+                android:layout_below="@id/ly_grxx_attend_week"
+                android:background="#e5e9ed" >
+
+                <GridView
+                    android:id="@+id/gv_grxx_attend"
+                    android:layout_width="819dp"
+                    android:layout_height="504dp"
+                    android:layout_marginLeft="1dp"
+                    android:divider="@color/bottom_color"
+                    android:horizontalSpacing="1dp"
+                    android:listSelector="@color/bottom_color"
+                    android:numColumns="7"
+                    android:scrollbars="none"
+                    android:verticalSpacing="1dp" >
+                </GridView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_grxx_attend1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="90dp"
+                android:layout_toRightOf="@id/ly_grxx_attend_table"
+                android:textColor="@color/black"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/txt_grxx_attend2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/txt_grxx_attend1"
+                android:layout_below="@id/txt_grxx_attend1"
+                android:layout_marginTop="25dp"
+                android:textColor="#666666"
+                android:textSize="30sp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart"
+                android:layout_width="675dp"
+                android:layout_height="300dp"
+                android:layout_alignLeft="@id/txt_grxx_attend2"
+                android:layout_below="@id/txt_grxx_attend2"
+                android:layout_marginTop="35dp" />
+
+            <HorizontalScrollView
+                android:id="@+id/sv_grxx_attend_day"
+                android:layout_width="wrap_content"
+                android:layout_height="163dp"
+                android:layout_alignLeft="@id/txt_grxx_attend1"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="65dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/ly_grxx_attend_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/txt_grxx_attend3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/sv_grxx_attend_day"
+                android:layout_alignLeft="@id/txt_grxx_attend1"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:textSize="36sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_grxx_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="846dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/cx_ly_grxx_line" />
+
+            <RelativeLayout
+                android:layout_width="879dp"
+                android:layout_height="match_parent" >
+
+                <com.yy.doorplate.view.MyPullUpListView
+                    android:id="@+id/list_msg_user"
+                    android:layout_width="800dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="50dp"
+                    android:divider="@color/bottom_color"
+                    android:listSelector="@color/bottom_color"
+                    android:scrollbars="none" >
+                </com.yy.doorplate.view.MyPullUpListView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_grxx_msg_content"
+                android:layout_width="879dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:visibility="invisible" >
+
+                <TextView
+                    android:id="@+id/txt_grxx_msg_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="45dp"
+                    android:textColor="#884802"
+                    android:textSize="35sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/cx_notice_line" />
+
+                <ListView
+                    android:id="@+id/lv_grxx_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="110dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="102dp"
+                    android:divider="@color/bottom_color"
+                    android:listSelector="@color/bottom_color"
+                    android:scrollbars="none" >
+                </ListView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#F4F4F4" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D9D9D9" />
+
+                    <EditText
+                        android:id="@+id/edt_grxx_msg"
+                        android:layout_width="630dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/btn_grxx_msg_commit"
+                        android:layout_width="120dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="13dp"
+                        android:background="@drawable/ly_curriculum_click"
+                        android:gravity="center"
+                        android:text="发送"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_grxx_leave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="846dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/cx_ly_grxx_line" />
+
+            <RelativeLayout
+                android:layout_width="879dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:text="我的请假记录"
+                    android:textColor="#884802"
+                    android:textSize="40sp" />
+
+                <com.yy.doorplate.view.MyPullUpListView
+                    android:id="@+id/list_leave"
+                    android:layout_width="768dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="120dp"
+                    android:divider="@color/bottom_color"
+                    android:dividerHeight="10dp"
+                    android:listSelector="@color/bottom_color"
+                    android:scrollbars="none" >
+                </com.yy.doorplate.view.MyPullUpListView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="879dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true" >
+
+                <TextView
+                    android:id="@+id/txt_grxx_leave_add1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:text="新增请假单"
+                    android:textColor="#884802"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_grxx_leave_add2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_grxx_leave_add1"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="50dp"
+                    android:text="请选择请假类型："
+                    android:textColor="#884802"
+                    android:textSize="30sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg_grxx_leave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_grxx_leave_add2"
+                    android:layout_below="@id/txt_grxx_leave_add2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_grxx_leave1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="病假"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_grxx_leave2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:text="事假"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_grxx_leave3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:text="其他"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/txt_grxx_leave_add3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_grxx_leave_add2"
+                    android:layout_below="@id/rg_grxx_leave"
+                    android:layout_marginTop="30dp"
+                    android:text="请输入请假事由："
+                    android:textColor="#884802"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/edt_grxx_leave"
+                    android:layout_width="700dp"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/txt_grxx_leave_add3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:gravity="left|top"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_grxx_leave_add2"
+                    android:layout_below="@id/edt_grxx_leave"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="30dp"
+                    android:text="说明：班牌请假时长仅限一天，多于一天需由家长在学习通终端操作提交审核后才能生效"
+                    android:textColor="@color/gray"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_grxx_leave_commit"
+                    android:layout_width="122dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginRight="70dp"
+                    android:background="@drawable/cx_btn_submit" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_grxx_info"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/cx_btn_grxx_table"
+        android:gravity="top|right"
+        android:paddingBottom="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="基本信息"
+        android:textColor="#787878"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_grxx_attend"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:layout_alignLeft="@id/btn_grxx_info"
+        android:layout_below="@id/btn_grxx_info"
+        android:background="@drawable/cx_btn_grxx_table"
+        android:gravity="top|right"
+        android:paddingBottom="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="考勤记录"
+        android:textColor="#787878"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_grxx_curriculum"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:layout_alignLeft="@id/btn_grxx_attend"
+        android:layout_below="@id/btn_grxx_attend"
+        android:background="@drawable/cx_btn_grxx_table"
+        android:gravity="top|right"
+        android:paddingBottom="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="我的课表"
+        android:textColor="#787878"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_grxx_msg"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:layout_alignLeft="@id/btn_grxx_curriculum"
+        android:layout_below="@id/btn_grxx_curriculum"
+        android:background="@drawable/cx_btn_grxx_table"
+        android:gravity="top|right"
+        android:paddingBottom="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="家校留言"
+        android:textColor="#787878"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_grxx_leave"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:layout_alignLeft="@id/btn_grxx_msg"
+        android:layout_below="@id/btn_grxx_msg"
+        android:background="@drawable/cx_btn_grxx_table"
+        android:gravity="top|right"
+        android:paddingBottom="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="在线请假"
+        android:textColor="#787878"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_grxx_honor"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:layout_alignLeft="@id/btn_grxx_leave"
+        android:layout_below="@id/btn_grxx_leave"
+        android:background="@drawable/cx_btn_grxx_table"
+        android:gravity="top|right"
+        android:paddingBottom="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="个人荣誉"
+        android:textColor="#787878"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_grxx_video"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:layout_alignLeft="@id/btn_grxx_honor"
+        android:layout_below="@id/btn_grxx_honor"
+        android:background="@drawable/cx_btn_grxx_table"
+        android:gravity="top|right"
+        android:paddingBottom="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="风采展示"
+        android:textColor="#787878"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+	<include
+	    android:id="@+id/cx_include_teacher"
+	    layout="@layout/cx_dialog_teacher"
+	    android:layout_below="@id/ly_cx_top"
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="100dp"
+	    android:layout_centerVertical="true"
+	    android:visibility="invisible"/>
+</RelativeLayout>

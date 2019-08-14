@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="1016dp"
+        android:layout_height="750dp"
+        android:layout_above="@id/ly_main_btn"
+        android:background="@drawable/pj_ly_main"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ly_main_class"
+            android:layout_width="488dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="78dp"
+            android:background="@drawable/txt_main_class"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_main_class"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="54sp" />
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_main_bj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="272dp" >
+
+            <TextView
+                android:id="@+id/txt_main_nextschedule"
+                android:layout_width="400dp"
+                android:layout_height="57dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="27dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/txt_main_nextschedule"
+                android:ellipsize="end"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txt_main_nonschedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无课程"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <LinearLayout
+                android:id="@+id/ly_main_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:orientation="horizontal"
+                android:visibility="invisible" >
+
+                <LinearLayout
+                    android:layout_width="228dp"
+                    android:layout_height="141dp"
+                    android:background="@drawable/ly_jsnl"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_main_kc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="课程"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="339dp"
+                    android:layout_height="141dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/ly_jsnl"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_main_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="35sp" />
+                    
+                    <!--
+                         <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="时间"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+                    -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="258dp"
+                    android:layout_height="141dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/ly_jsnl"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <com.yy.doorplate.view.CustomTextView
+                        android:id="@+id/txt_main_teacher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:ellipsize="marquee"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="教师"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_main_classnew"
+            android:layout_width="match_parent"
+            android:layout_height="253dp" >
+
+            <TextView
+                android:id="@+id/txt_main_noclassnew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无通知"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/txt_main_classnew"
+                android:layout_width="960dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="3"
+                android:paddingLeft="45dp"
+                android:paddingRight="45dp"
+                android:textColor="#668"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_main_cc"
+        android:layout_width="214dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/ly_banner"
+        android:background="@drawable/img61"
+        android:gravity="center"
+        android:text="当前课程"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="445dp"
+        android:layout_toRightOf="@id/ly_banner"
+        android:background="@drawable/img61"
+        android:gravity="center"
+        android:text="班级通知"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+</RelativeLayout>

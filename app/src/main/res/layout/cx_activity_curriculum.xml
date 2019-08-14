@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_cx_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="班级课表"
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_curriculum"
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cx_ly_curriculum" >
+
+        <RelativeLayout
+            android:layout_width="142dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#8f7d62" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/cx_img_clock" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_curriculum_week"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="144dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:scrollbars="vertical"-->
+            <!--android:layout_below="@id/ly_curriculum_week">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/ly_curriculum_ampm"-->
+                <!--android:layout_width="142dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="2dp"-->
+                <!--android:layout_marginLeft="2dp"-->
+                <!--android:orientation="vertical" >-->
+            <!--</LinearLayout>-->
+
+            <!--<GridView-->
+                <!--android:id="@+id/gv_curriculum"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="2dp"-->
+                <!--android:layout_marginLeft="2dp"-->
+                <!--android:divider="@color/bottom_color"-->
+                <!--android:horizontalSpacing="0dp"-->
+                <!--android:listSelector="@color/bottom_color"-->
+                <!--android:scrollbars="none"-->
+                <!--android:verticalSpacing="0dp" >-->
+            <!--</GridView>-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--</LinearLayout>-->
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ly_curriculum_ampm"
+            android:layout_width="142dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ly_curriculum_week"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gv_curriculum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ly_curriculum_week"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="144dp"
+            android:divider="@color/bottom_color"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@color/bottom_color"
+            android:scrollbars="vertical"
+            android:verticalSpacing="0dp" >
+        </GridView>
+
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灰色课程"
+            android:textColor="#9a999a"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="表示 : 已上课程"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="红色课程"
+            android:textColor="#fe3332"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="表示 : 正上课程"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="蓝色课程"
+            android:textColor="#4192fe"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="表示 : 未上课程"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/cx_img_curriculum_attend" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="点击查看课程考勤"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>

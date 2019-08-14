@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="800dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/netset_right_dialog_background" >
+
+        <TextView
+            android:id="@+id/dialog_off_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:text="30秒后关机"
+            android:textColor="#3399FF"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/dialog_off_btn1"
+            android:layout_width="310dp"
+            android:layout_height="96dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_addlist_ok"
+            android:gravity="center"
+            android:text="知道了"
+            android:textColor="@color/white"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/dialog_off_btn2"
+            android:layout_width="310dp"
+            android:layout_height="96dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/btn_addlist_cancel"
+            android:gravity="center"
+            android:text="取消本次关机"
+            android:textColor="@color/white"
+            android:textSize="45sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_classnew_banner"
+    android:layout_width="671dp"
+    android:layout_height="416dp" >
+
+    <ImageSwitcher
+        android:id="@+id/img_classnew_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ImageSwitcher>
+
+    <SurfaceView
+        android:id="@+id/sv_classnew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <ImageView
+            android:id="@+id/img_attend_state"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp" />
+
+        <TextView
+            android:id="@+id/txt_attend_state1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/img_attend_state"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/txt_attend_state2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txt_attend_state1"
+            android:layout_below="@id/txt_attend_state1"
+            android:text="您是本次考勤中第 "
+            android:textColor="@color/black"
+            android:textSize="44sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_attend_state3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_attend_state2"
+            android:layout_toRightOf="@id/txt_attend_state2"
+            android:textColor="#ea2700"
+            android:textSize="44sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_attend_state4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txt_attend_state3"
+            android:layout_toRightOf="@id/txt_attend_state3"
+            android:text=" 位登记的同学"
+            android:textColor="@color/black"
+            android:textSize="44sp"
+            android:visibility="invisible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#999" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp" >
+
+        <ImageView
+            android:id="@+id/img_attend_photo"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/user_icon" />
+
+        <TextView
+            android:id="@+id/txt_attend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/img_attend_photo"
+            android:textColor="@color/black"
+            android:textSize="72sp" />
+
+        <TextView
+            android:id="@+id/txt_attend_xh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/txt_attend_name"
+            android:layout_alignBottom="@id/txt_attend_name"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/txt_attend_name"
+            android:textColor="#888"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/txt_attend_banji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_attend_name"
+            android:layout_below="@+id/txt_attend_name"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="44sp" />
+
+        <TextView
+            android:id="@+id/txt_attend_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_attend_banji"
+            android:layout_below="@+id/txt_attend_banji"
+            android:textColor="@color/black"
+            android:textSize="44sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_attend_close"
+        android:layout_width="1032dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/btn_attend_close"
+        android:gravity="center"
+        android:text="关闭"
+        android:textColor="@color/white"
+        android:textSize="56sp" />
+
+</LinearLayout>

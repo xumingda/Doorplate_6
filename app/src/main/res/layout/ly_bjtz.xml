@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="671dp"
+    android:layout_height="366dp"
+    android:background="@drawable/ly_white"
+    android:padding="30dp" >
+
+    <RelativeLayout
+        android:id="@+id/ly_classnew_new_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_class_new"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:visibility="invisible" />
+
+        <com.yy.doorplate.view.CustomTextView
+            android:id="@+id/txt_classnenw_title"
+            android:layout_width="611dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_classnenw_rl"
+            android:layout_width="611dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txt_classnenw_title"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="#777"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txt_classnenw_time"
+            android:layout_width="611dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txt_classnenw_rl"
+            android:layout_marginTop="5dp"
+            android:textColor="#999"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_classnew_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_classnew_new_"
+        android:layout_marginTop="20dp"
+        android:divider="@color/bottom_color"
+        android:listSelector="@color/bottom_color"
+        android:scrollbars="none" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/txt_classnew_nonews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="暂无通知"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</RelativeLayout>

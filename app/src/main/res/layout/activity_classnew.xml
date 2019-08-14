@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_classnew"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ly_classnew_top"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bg_top" >
+
+        <Button
+            android:id="@+id/btn_classnew_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="班级风采"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_classnew_top"
+        android:background="@drawable/bg_bottom" >
+
+        <RelativeLayout
+            android:id="@+id/ly_classnew_banner"
+            android:layout_width="671dp"
+            android:layout_height="416dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/ly_white" >
+
+            <ImageSwitcher
+                android:id="@+id/img_classnew_banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ImageSwitcher>
+
+            <SurfaceView
+                android:id="@+id/sv_classnew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_classnew_new"
+            android:layout_width="match_parent"
+            android:layout_height="366dp"
+            android:layout_alignLeft="@id/ly_classnew_banner"
+            android:layout_alignRight="@id/ly_classnew_banner"
+            android:layout_below="@id/ly_classnew_banner"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ly_white"
+            android:padding="30dp" >
+
+            <RelativeLayout
+                android:id="@+id/ly_classnew_new_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/img_class_new"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:visibility="invisible" />
+
+                <com.yy.doorplate.view.CustomTextView
+                    android:id="@+id/txt_classnenw_title"
+                    android:layout_width="611dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/txt_classnenw_rl"
+                    android:layout_width="611dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/txt_classnenw_title"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textColor="#777"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/txt_classnenw_time"
+                    android:layout_width="611dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/txt_classnenw_rl"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#999"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_classnew_new"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ly_classnew_new_"
+                android:layout_marginTop="20dp"
+                android:divider="@color/bottom_color"
+                android:listSelector="@color/bottom_color"
+                android:scrollbars="none" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/txt_classnew_nonews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无通知"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_classnew_info"
+            android:layout_width="1050dp"
+            android:layout_height="417dp"
+            android:layout_alignBottom="@id/ly_classnew_banner"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/ly_classnew_banner"
+            android:background="@drawable/ly_classnew_info" >
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_classnew_bjmc"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+            <RelativeLayout
+                android:id="@+id/ly_classnew_info_left"
+                android:layout_width="490dp"
+                android:layout_height="215dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/ly_classnew_info_bk" >
+
+                <com.yy.doorplate.view.CustomTextView
+                    android:id="@+id/txt_classnew_bzrcm"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_bzr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_classnew_bzrcm"
+                    android:layout_below="@id/txt_classnew_bzrcm"
+                    android:text="班主任"
+                    android:textColor="#bdfdf9"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:id="@+id/ly_classnew_zhiri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/txt_classnew_bzrcm"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/txt_classnew_bzrcm"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_classnew_zrcm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_classnew_zr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="值日"
+                        android:textColor="#bdfdf9"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly_classnew_attend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_classnew_bzrcm"
+                    android:layout_below="@id/txt_classnew_bzr"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible" >
+
+                    <TextView
+                        android:id="@+id/txt_classnew_kq1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_classnew_kq2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/txt_classnew_kq1"
+                        android:layout_below="@id/txt_classnew_kq1"
+                        android:text="人数"
+                        android:textColor="#bdfdf9"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txt_classnew_kq3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/txt_classnew_kq1"
+                        android:layout_marginLeft="120dp"
+                        android:layout_toRightOf="@id/txt_classnew_kq2"
+                        android:textColor="@color/white"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_classnew_kq4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/txt_classnew_kq3"
+                        android:layout_below="@id/txt_classnew_kq3"
+                        android:text="缺勤"
+                        android:textColor="#bdfdf9"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txt_classnew_kq5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/txt_classnew_kq3"
+                        android:layout_marginLeft="120dp"
+                        android:layout_toRightOf="@id/txt_classnew_kq4"
+                        android:textColor="@color/white"
+                        android:textSize="36sp" />
+
+                    <TextView
+                        android:id="@+id/txt_classnew_kq6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/txt_classnew_kq5"
+                        android:layout_below="@id/txt_classnew_kq5"
+                        android:text="迟到"
+                        android:textColor="#bdfdf9"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_classnew_info_right"
+                android:layout_width="490dp"
+                android:layout_height="215dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/ly_classnew_info_bk" >
+
+                <View
+                    android:layout_width="451dp"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/view_classnew_horizontal" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="104dp"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/view_classnew_vertical" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="104dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="105dp"
+                    android:background="@drawable/view_classnew_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="35dp"
+                    android:text="今日"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:text="明日"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_noke1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="35dp"
+                    android:text="无课程"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_noke2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="35dp"
+                    android:layout_marginLeft="240dp"
+                    android:text="无课程"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_ke1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="20dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_ke2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_classnew_ke1"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_ke3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_classnew_ke2"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="30dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_ke4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_classnew_ke3"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_classnew_honor"
+            android:layout_width="560dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/ly_classnew_new"
+            android:layout_alignTop="@id/ly_classnew_new"
+            android:layout_marginLeft="29dp"
+            android:layout_toRightOf="@id/ly_classnew_new"
+            android:background="@drawable/ly_schoolnew_honor" >
+
+            <RelativeLayout
+                android:id="@+id/ly_classnew_honor_"
+                android:layout_width="355dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="60dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/img_classnew_honor"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_honor1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#000"
+                    android:textSize="45sp" />
+
+                <TextView
+                    android:id="@+id/txt_classnew_honor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/txt_classnew_honor1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/txt_classnew_honor1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/txt_classnew_honor1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:textColor="#777"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_classnew_left"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/btn_left"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_classnew_right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/btn_right"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txt_classnew_nohonor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无荣誉"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_classnew_english"
+            android:layout_width="469dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/ly_classnew_honor"
+            android:layout_alignTop="@id/ly_classnew_honor"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/ly_classnew_honor"
+            android:background="@drawable/ly_classnew_english"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/txt_classnew_english_title"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="55dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt_classnew_english"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="6"
+                android:padding="70dp"
+                android:textColor="#888"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_classnew_video"
+            android:layout_width="469dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/ly_classnew_honor"
+            android:layout_alignTop="@id/ly_classnew_honor"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/ly_classnew_honor"
+            android:background="@drawable/ly_white" >
+
+            <TextView
+                android:id="@+id/txt_classnew_novideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="暂无视频"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <SurfaceView
+                android:id="@+id/sv_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bg_top" >
+
+        <Button
+            android:id="@+id/btn_teacher_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="教师信息"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_bottom" >
+
+        <LinearLayout
+            android:id="@+id/ly_teacher_1"
+            android:layout_width="378dp"
+            android:layout_height="845dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/ly_teacher_1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_teacher"
+                android:layout_width="188dp"
+                android:layout_height="188dp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/user_icon" />
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_teacher_name"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="50sp" />
+
+            <LinearLayout
+                android:id="@+id/ly_teacher_2"
+                android:layout_width="344dp"
+                android:layout_height="493dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ly_teacher_2"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:text="性别"
+                    android:textColor="#bdfdf9"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txt_teacher_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:text="毕业院校"
+                    android:textColor="#bdfdf9"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txt_teacher_byxx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:text="专业"
+                    android:textColor="#bdfdf9"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txt_teacher_byzy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:text="学历学位"
+                    android:textColor="#bdfdf9"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txt_teacher_xlxw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_teacher_3"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_alignTop="@id/ly_teacher_1"
+            android:layout_marginLeft="68dp"
+            android:layout_marginRight="68dp"
+            android:layout_toRightOf="@id/ly_teacher_1"
+            android:background="@drawable/ly_classinfo_title"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_teacher_kyqk"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@color/YELLOW"
+                android:text="科研情况"
+                android:textColor="@color/white"
+                android:textSize="38sp" />
+
+            <Button
+                android:id="@+id/btn_teacher_jxqk"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@color/bottom_color"
+                android:text="教学情况"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_teacher_jxqk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ly_teacher_3"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="95dp"
+            android:layout_toRightOf="@id/ly_teacher_1"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</LinearLayout>

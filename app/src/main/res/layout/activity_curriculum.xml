@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bg_top" >
+
+        <Button
+            android:id="@+id/btn_curriculum_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/txt_curriculum_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+
+        <RelativeLayout
+            android:id="@+id/ly_spinner"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/ly_spinner"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/txt_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/img_spinner" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/ly_classinfo_title"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp" >
+
+            <LinearLayout
+                android:id="@+id/ly_monday"
+                android:layout_width="210dp"
+                android:layout_height="128dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_monday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/monday"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_monday_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#888"
+                    android:textSize="32sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_tuesday"
+                android:layout_width="210dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="55dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_tuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/tuesday"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_tuesday_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#888"
+                    android:textSize="32sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_wednesday"
+                android:layout_width="210dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="55dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_wednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/wednesday"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_wednesday_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#888"
+                    android:textSize="32sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_thursday"
+                android:layout_width="210dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="55dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_thursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/thursday"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_thursday_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#888"
+                    android:textSize="32sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_friday"
+                android:layout_width="210dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="55dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_friday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/friday"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_friday_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#888"
+                    android:textSize="32sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_saturday"
+                android:layout_width="210dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="55dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_saturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/saturday"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_saturday_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#888"
+                    android:textSize="32sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_sunday"
+                android:layout_width="210dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="55dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_sunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/sunday"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/txt_sunday_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#888"
+                    android:textSize="32sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <View
+                android:id="@+id/view_curriculum"
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="350dp"
+                android:background="#B6B6B6"
+                android:visibility="invisible" />
+
+            <ListView
+                android:id="@+id/list_curriculum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/bottom_color"
+                android:listSelector="@color/bottom_color"
+                android:scrollbars="none" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/txt_curriculum_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="无课程"
+                android:textColor="@color/black"
+                android:textSize="60sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

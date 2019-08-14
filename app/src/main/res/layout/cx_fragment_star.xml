@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_star1"
+        android:layout_width="380dp"
+        android:layout_height="725dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_star1"
+            android:layout_width="356dp"
+            android:layout_height="492dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_star1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_star1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_star2"
+        android:layout_width="380dp"
+        android:layout_height="725dp"
+        android:layout_marginLeft="68dp"
+        android:layout_toRightOf="@id/ly_fragment_star1"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_star2"
+            android:layout_width="356dp"
+            android:layout_height="492dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_star2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_star2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_star3"
+        android:layout_width="380dp"
+        android:layout_height="725dp"
+        android:layout_marginLeft="68dp"
+        android:layout_toRightOf="@id/ly_fragment_star2"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_star3"
+            android:layout_width="356dp"
+            android:layout_height="492dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_star3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_star3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_fragment_star4"
+        android:layout_width="380dp"
+        android:layout_height="725dp"
+        android:layout_marginLeft="68dp"
+        android:layout_toRightOf="@id/ly_fragment_star3"
+        android:background="@drawable/cx_ly_honor"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_fragment_star4"
+            android:layout_width="356dp"
+            android:layout_height="492dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_fragment_star4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/txt_fragment_star44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_fragment_star4"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="#666"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

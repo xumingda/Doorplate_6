@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_classnew"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cx" >
+
+    <RelativeLayout
+        android:id="@+id/ly_cx_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:background="@drawable/ly_cx_top" >
+
+        <Button
+            android:id="@+id/btn_cx_back"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/cx_btn_back" />
+
+        <com.yy.doorplate.view.CustomTextView
+            android:id="@+id/txt_school_name"
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="55sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textClock"
+            android:layout_marginRight="64dp"
+            android:layout_toLeftOf="@id/textClock"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_cxschoolnew_1"
+        android:layout_width="922dp"
+        android:layout_height="302dp"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/cx_ly_school_left" >
+
+        <RelativeLayout
+            android:id="@+id/ly_schoolnew_banner"
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:visibility="invisible" >
+        </RelativeLayout>
+
+        <ImageSwitcher
+            android:id="@+id/img_schoolnew_banner"
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp" >
+        </ImageSwitcher>
+
+        <TextView
+            android:id="@+id/txt_xxxw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ly_schoolnew_banner"
+            android:text="校园新闻"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_xxxw_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txt_xxxw"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="更多"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/list_schoolnew_new"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/txt_xxxw"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ly_schoolnew_banner"
+            android:divider="@color/bottom_color"
+            android:dividerHeight="10dp"
+            android:listSelector="@color/bottom_color"
+            android:scrollbars="none" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="922dp"
+        android:layout_height="302dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ly_cx_top"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp" >
+
+        <Button
+            android:id="@+id/btn_schoolnew"
+            android:layout_width="160dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/cx_btn_school"
+            android:paddingTop="80dp"
+            android:text="校园文化"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_notice"
+            android:layout_width="160dp"
+            android:layout_height="146dp"
+            android:layout_alignTop="@id/btn_schoolnew"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/btn_schoolnew"
+            android:background="@drawable/cx_btn_school_notice"
+            android:paddingTop="80dp"
+            android:text="校园通知"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_activity"
+            android:layout_width="160dp"
+            android:layout_height="146dp"
+            android:layout_alignTop="@id/btn_schoolnew_notice"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/btn_schoolnew_notice"
+            android:background="@drawable/cx_btn_school_activity"
+            android:paddingTop="80dp"
+            android:text="校园活动"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_photo"
+            android:layout_width="160dp"
+            android:layout_height="146dp"
+            android:layout_alignTop="@id/btn_schoolnew_activity"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/btn_schoolnew_activity"
+            android:background="@drawable/cx_btn_school_photo"
+            android:paddingTop="80dp"
+            android:text="校园相册"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_quest"
+            android:layout_width="160dp"
+            android:layout_height="146dp"
+            android:layout_alignTop="@id/btn_schoolnew_photo"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/btn_schoolnew_photo"
+            android:background="@drawable/cx_btn_school_quest"
+            android:paddingTop="80dp"
+            android:text="校园调查"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_more"
+            android:layout_width="160dp"
+            android:layout_height="146dp"
+            android:layout_alignLeft="@id/btn_schoolnew"
+            android:layout_below="@id/btn_schoolnew"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cx_btn_school_more"
+            android:paddingTop="80dp"
+            android:text="更多"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_cxschoolnew_2"
+        android:layout_width="1861dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/ly_cxschoolnew_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/cx_ly_classnew_bjcy" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="教师风采"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_jsfc_all"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center"
+            android:text="查看更多"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bofang"
+        />
+    <RelativeLayout
+        android:layout_toLeftOf="@id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="437dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp" >
+
+        <com.yy.doorplate.view.CustomViewpager
+            android:id="@+id/vp_schoolnew_jsfc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp" >
+        </com.yy.doorplate.view.CustomViewpager>
+
+        <Button
+            android:id="@+id/btn_schoolnew_left"
+            android:layout_width="40dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/cx_btn_book_left" />
+
+        <Button
+            android:id="@+id/btn_schoolnew_right"
+            android:layout_width="40dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/cx_btn_book_right" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main" >
+
+    <Button
+        android:id="@+id/btn_set_back"
+        android:layout_width="@dimen/dimen_45_dip"
+        android:layout_height="@dimen/dimen_45_dip"
+        android:layout_marginLeft="@dimen/dimen_30_dip"
+        android:layout_marginTop="@dimen/dimen_20_dip"
+        android:background="@drawable/btn_back" />
+
+    <LinearLayout
+        android:id="@+id/ly_moresetting_top"
+        android:layout_width="@dimen/dimen_400_dip"
+        android:layout_height="@dimen/dimen_53_dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_40_dip"
+        android:background="@drawable/ly_moresetting_label"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_25_dip"
+        android:paddingRight="@dimen/dimen_25_dip" >
+
+        <Button
+            android:id="@+id/btn_set_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_moresetting_label"
+            android:gravity="center"
+            android:text="系统信息"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_25_dip" />
+
+        <Button
+            android:id="@+id/btn_set_light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="亮度设置"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_25_dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_set_info"
+        android:layout_width="@dimen/dimen_600_dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_moresetting_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_40_dip"
+        android:gravity="left"
+        android:lineSpacingMultiplier="1.5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_25_dip" />
+
+    <RelativeLayout
+        android:id="@+id/ly_setlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_moresetting_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_50_dip" >
+
+        <ImageView
+            android:id="@+id/img_setlight_1"
+            android:layout_width="@dimen/dimen_30_dip"
+            android:layout_height="@dimen/dimen_30_dip"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_setligth_1" />
+
+        <SeekBar
+            android:id="@+id/seekbar_light"
+            android:layout_width="@dimen/dimen_400_dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:layout_toRightOf="@id/img_setlight_1"
+            android:focusable="true"
+            android:maxHeight="@dimen/dimen_7_dip"
+            android:minHeight="@dimen/dimen_7_dip"
+            android:paddingLeft="@dimen/dimen_10_dip"
+            android:paddingRight="@dimen/dimen_10_dip"
+            android:progressDrawable="@drawable/light_seekbar"
+            android:thumb="@drawable/seekbar_light" />
+
+        <ImageView
+            android:id="@+id/img_setlight_2"
+            android:layout_width="@dimen/dimen_40_dip"
+            android:layout_height="@dimen/dimen_40_dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:layout_toRightOf="@id/seekbar_light"
+            android:src="@drawable/img_setligth_2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/img_setlight_1"
+            android:layout_alignRight="@id/img_setlight_2"
+            android:layout_below="@id/img_setlight_1"
+            android:layout_marginTop="@dimen/dimen_200_dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_10_dip"
+                android:text="自动调节亮度"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_25_dip" />
+
+            <CheckBox
+                android:id="@+id/cb_isautobrightness"
+                android:layout_width="@dimen/dimen_50_dip"
+                android:layout_height="@dimen/dimen_33_dip"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/checkbox_netset"
+                android:button="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1210dp"
+    android:layout_height="300dp" >
+
+    <LinearLayout
+        android:id="@+id/ly_schoolnew_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ly_white"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/ly_schoolnew_new_"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="48dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="50dp"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/img_class_new"
+                android:layout_width="230dp"
+                android:layout_height="200dp"
+                android:visibility="invisible" />
+
+            <com.yy.doorplate.view.CustomTextView
+                android:id="@+id/txt_schoolnew_new_title"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_schoolnew_new_rl"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txt_schoolnew_new_title"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="#777"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/txt_schoolnew_new_time"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txt_schoolnew_new_rl"
+                android:layout_marginTop="10dp"
+                android:textColor="#999"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list_schoolnew_new"
+            android:layout_width="600dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="48dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:divider="@color/bottom_color"
+            android:listSelector="@color/bottom_color"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

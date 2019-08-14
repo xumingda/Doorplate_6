@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="764dp"
+        android:layout_height="520dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/netset_right_dialog_background" >
+
+        <TextView
+            android:id="@+id/netset_dialog_tv_wifiname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#1E91E1"
+            android:textSize="50sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@id/netset_dialog_tv_wifiname"
+            android:layout_marginTop="20dp"
+            android:background="#1E91E1" />
+
+        <EditText
+            android:id="@+id/netset_dialog_edt_password"
+            android:layout_width="640dp"
+            android:layout_height="110dp"
+            android:layout_below="@id/netset_dialog_tv_wifiname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/background_edit"
+            android:gravity="center_vertical"
+            android:hint="@string/wifi_pwd"
+            android:paddingLeft="15dp"
+            android:textColor="#1E91E1"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/netset_dialog_tv_connected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/netset_dialog_tv_wifiname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:paddingLeft="15dp"
+            android:text="@string/wifi_connect"
+            android:textColor="#1E91E1"
+            android:textSize="48sp"
+            android:visibility="invisible" />
+
+        <CheckBox
+            android:id="@+id/netset_dialog_cb_displaypassword"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/netset_dialog_edt_password"
+            android:layout_below="@id/netset_dialog_edt_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/wifi_show_pwd"
+            android:textColor="#1E91E1"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/netset_dialog_btn_confirm"
+            android:layout_width="310dp"
+            android:layout_height="96dp"
+            android:layout_alignLeft="@+id/netset_dialog_cb_displaypassword"
+            android:layout_below="@+id/netset_dialog_cb_displaypassword"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_addlist_ok"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/netset_dialog_btn_cancel"
+            android:layout_width="310dp"
+            android:layout_height="96dp"
+            android:layout_below="@+id/netset_dialog_cb_displaypassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignRight="@+id/netset_dialog_edt_password"
+            android:background="@drawable/btn_addlist_cancel"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

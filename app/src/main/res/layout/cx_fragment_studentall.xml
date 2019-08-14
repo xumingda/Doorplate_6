@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridView
+        android:id="@+id/gv_student"
+        android:layout_width="1862dp"
+        android:layout_height="870dp"
+        android:divider="@color/bottom_color"
+        android:horizontalSpacing="53dp"
+        android:listSelector="@color/bottom_color"
+        android:numColumns="5"
+        android:scrollbars="none"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+</RelativeLayout>

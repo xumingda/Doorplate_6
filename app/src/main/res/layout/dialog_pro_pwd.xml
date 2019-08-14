@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/txt_pro_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_35_dip"
+        android:layout_marginTop="@dimen/dimen_20_dip"
+        android:text="请输入工程密码"
+        android:textColor="#1E91E1"
+        android:textSize="@dimen/dimen_25_dip" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_2_dip"
+        android:layout_below="@id/txt_pro_pwd"
+        android:layout_marginTop="@dimen/dimen_10_dip"
+        android:background="#1E91E1" />
+
+    <EditText
+        android:id="@+id/edt_pro_pwd"
+        android:layout_width="@dimen/dimen_250_dip"
+        android:layout_height="@dimen/dimen_55_dip"
+        android:layout_below="@id/txt_pro_pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_35_dip"
+        android:background="@drawable/background_edit"
+        android:gravity="center"
+        android:maxLength="8"
+        android:paddingLeft="@dimen/dimen_10_dip"
+        android:paddingRight="@dimen/dimen_10_dip"
+        android:password="true"
+        android:singleLine="true"
+        android:textColor="#1E91E1"
+        android:textSize="@dimen/dimen_23_dip" />
+
+    <Button
+        android:id="@+id/btn_pro_pwd_ok"
+        android:layout_width="@dimen/dimen_120_dip"
+        android:layout_height="@dimen/dimen_50_dip"
+        android:layout_alignLeft="@+id/edt_pro_pwd"
+        android:layout_below="@+id/edt_pro_pwd"
+        android:layout_marginTop="@dimen/dimen_15_dip"
+        android:background="@drawable/btn_addlist_ok"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_25_dip" />
+
+    <Button
+        android:id="@+id/btn_pro_pwd_cancel"
+        android:layout_width="@dimen/dimen_120_dip"
+        android:layout_height="@dimen/dimen_50_dip"
+        android:layout_alignRight="@+id/edt_pro_pwd"
+        android:layout_below="@+id/edt_pro_pwd"
+        android:layout_marginTop="@dimen/dimen_15_dip"
+        android:background="@drawable/btn_addlist_cancel"
+        android:text="@string/cancel"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_25_dip" />
+
+</RelativeLayout>

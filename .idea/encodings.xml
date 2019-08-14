@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/libs/armeabi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/libs/armeabi-v7a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/libs/x86" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android_serialport_api/SerialPort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android_serialport_api/SerialPortFinder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/cx/doorplate/activity/CXMainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/MyApplication.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/adapter/StudentCXXKAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/adapter/StudentNewCXXKAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/adapter/StudentXKXXAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/serialport_util/LockerPortInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/serialport_util/LockerSerialportUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/serialport_util/MyFunc.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yy/doorplate/serialport_util/PortPrinterBase.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_cx.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bofang.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/jingbao.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/jinggao.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-ldpi/bg_cx.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-ldpi/img_people.jpg" charset="UTF-8" />
+    <file url="file://E:/download/RongYun/app/src/main/res/layout/activity_account_set.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

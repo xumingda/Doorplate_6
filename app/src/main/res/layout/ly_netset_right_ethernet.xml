@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="980dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/netset_cb_right_staticip"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/checkbox_netset"
+            android:button="@null"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="650dp"
+            android:layout_toLeftOf="@+id/netset_cb_right_staticip"
+            android:text="@string/staticip"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/netset_tv_right_ip"
+            android:layout_width="710dp"
+            android:layout_height="78dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/net_input_right"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_toLeftOf="@+id/netset_tv_right_ip"
+            android:text="@string/ip"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/netset_tv_right_subnetmask"
+            android:layout_width="710dp"
+            android:layout_height="78dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/net_input_right"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_toLeftOf="@+id/netset_tv_right_subnetmask"
+            android:text="@string/mask"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/netset_tv_right_gateway"
+            android:layout_width="710dp"
+            android:layout_height="78dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/net_input_right"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_toLeftOf="@+id/netset_tv_right_gateway"
+            android:text="@string/gateway"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/netset_tv_right_maindns"
+            android:layout_width="710dp"
+            android:layout_height="78dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/net_input_right"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_toLeftOf="@+id/netset_tv_right_maindns"
+            android:text="@string/dns1"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/netset_tv_right_sparedns"
+            android:layout_width="710dp"
+            android:layout_height="78dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/net_input_right"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_toLeftOf="@+id/netset_tv_right_sparedns"
+            android:text="@string/dns2"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/netset_btn_right_cancel"
+            android:layout_width="260dp"
+            android:layout_height="96dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="150dp"
+            android:background="@drawable/btn_addlist_cancel"
+            android:onClick="myclick"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/netset_btn_right_confirm"
+            android:layout_width="260dp"
+            android:layout_height="96dp"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/netset_btn_right_cancel"
+            android:background="@drawable/btn_addlist_ok"
+            android:onClick="myclick"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+    </RelativeLayout>
+
+</LinearLayout>
